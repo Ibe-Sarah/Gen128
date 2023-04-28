@@ -46,10 +46,16 @@ body{
   margin:2px;
   color: black;
 }
-#navDropdown .dropdown-toggle::after {
-  /* margin-left: -3em !important; */
+#navDropdown.nav-link.dropdown-toggle::after {
+  margin-left: 17.5em !important;
 
 }
+
+#barDropdown.nav-link.dropdown-toggle::after {
+  margin-left: 17.3em !important;
+
+}
+
 .Strength{
     display: flex;
     top: 150 !important;
@@ -360,4 +366,12 @@ padding-bottom: 1em;
  margin-top: 0.8em;
  width: 7em;
   }
+
   }
+  @media (width: 360) {
+    .privacy {
+   margin-top: 0.8em;
+   width: 9em;
+    }
+    
+    }
