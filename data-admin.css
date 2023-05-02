@@ -1,0 +1,23 @@
+.fauxels{
+    height: 17.2em;
+    z-index: 0;
+  }
+  .describedata{
+    padding-top: 2em;
+    padding-right: 3em !important;
+    margin-top: -13.6em;
+    max-width: 400px;
+    margin-left: 1em;
+    position:relative;
+    z-index: 10000;
+    color: #FFFFFF;
+    padding-bottom: 1.3em;
+}
+.describedata h2{
+    font-family: 'Clash Grotesk', sans-serif;
+    font-size: 2em;
+}
+.describedata p{
+    font-family: 'Archivo', sans-serif;
+    font-weight: 400 !important;
+}

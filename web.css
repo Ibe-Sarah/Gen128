@@ -1,0 +1,40 @@
+.pexels{
+    height: 17.2em;
+    z-index: 0;
+  }
+  .describeweb{
+    padding-top: 2em;
+    padding-right: 3em !important;
+    margin-top: -15.6em;
+    max-width: 400px;
+    margin-left: 1em;
+    position:relative;
+    z-index: 10000;
+    color: #FFFFFF;
+    padding-bottom: 1.3em;
+}
+.describeweb h2{
+    font-family: 'Clash Grotesk', sans-serif;
+    font-size: 2em;
+}
+.describeweb p{
+    font-family: 'Archivo', sans-serif;
+    font-weight: 400 !important;
+}
+.consult{
+height: 54px;
+width: 388px;
+left: 20px;
+top: 1978px;
+border-radius: 4px;
+padding: 16px 24px 16px 24px;
+background-color: #0047B3;
+border: none;
+color: #FFFFFF;
+margin-left: 1.3em !important;
+margin-right: auto !important;
+margin-top: 3em;
+margin-bottom: 3em;
+font-family: 'Clash Grotesk', sans-serif;
+
+}
