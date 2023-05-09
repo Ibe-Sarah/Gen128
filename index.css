@@ -150,6 +150,7 @@ body{
 .critics{
     color: #091E42;
     font-family: 'Archivo', sans-serif;
+    font-size: 0.8em;
 }
 
 .scroll-container {
@@ -235,6 +236,9 @@ max-width: 400px;
     padding-right: 2em;
 
 
+  }
+  a{
+    text-decoration: none;
   }
 .services{
   font-size: 28px;

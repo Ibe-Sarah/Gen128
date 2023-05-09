@@ -1,8 +1,4 @@
-.lmd{
-    height: 17.2em;
-    z-index: 0;
-  }
-  .describelead{
+.describemark{
     padding-top: 2em;
     padding-right: 3em !important;
     margin-top: -11.6em;
@@ -13,18 +9,31 @@
     color: #FFFFFF;
     padding-bottom: 1.3em;
 }
-.describelead h2{
+.describemark h2{
     font-family: 'Clash Grotesk', sans-serif;
     font-size: 2em;
 }
-.describelead p{
+.describemark p{
     font-family: 'Archivo', sans-serif;
     font-weight: 400 !important;
 }
-.LGS{
+
+.focus{
+    color: #438434;
+}
+.marketing h4{
     font-family: 'Clash Grotesk', sans-serif;
-    padding-left: 1em;
     color: #091E42;
-    font-size: 1.6em;
+    /* padding-left: 1em; */
     font-weight: bold;
+    text-align: center;
+}
+.marketing{
+    background-color: #EFF8ED;
+}
+.marketing p{
+    color: #091E42;
+    font-family: 'Archivo', sans-serif;
+    padding-left: 1em;
+    padding-right: 1em;
 }

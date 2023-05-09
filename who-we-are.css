@@ -52,3 +52,114 @@ font-weight: 600;
     font-weight: 600;
     color: #005696;
 }
+
+.flexopp{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.flexopp h6{
+    /* padding-top: 0.7em; */
+    font-family: 'Clash Grotesk', sans-serif;
+    font-weight: 600;
+    color: #005696;
+}
+.accordion {
+    padding-top: 8em;
+    margin-top: 3em !important;
+    width: 55em;
+    margin-left: 15em;
+    padding-bottom: 9em;
+    /* background-color: #091E42; */
+  
+  }
+  
+  .accordion-item {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    margin-bottom: 1em;
+    margin-top:'-7em';
+    width: 25em !important;
+    margin-left: auto;
+    margin-right: auto;
+  
+  
+    
+  }
+  
+  
+  .accordion-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    cursor: pointer;
+    height: 4em;
+    background-color: #FDFDFD ;
+  }
+  
+  .accordion-header h5 {
+    margin: 0;
+    font-size: 1.3em;
+    font-weight: 500;
+    font-family: 'Archivo', sans-serif;
+    color: #0047B3;
+    /* font-weight: bold !important; */
+   
+  }
+  
+  .accordion-content {
+    padding: 20px;
+    padding-top: 3em;
+    margin-top: -1.5em;
+    font-family: 'Archivo' , sans-serif;
+    color: #091E42 ;
+    font-weight: 600;
+    background-color: #FDFDFD ;
+    width: auto;
+    
+   
+  }
+  .accordion-container{
+    margin-top: 3em;
+    padding-top: 3em;
+    padding-bottom: 2em;
+  }
+  
+
+  .accordion-icon-down {
+    border: solid #0047B3;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 3px;
+    margin-top: -1em;
+    width: 0.8em;
+    height: 0.8em;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+  
+  }
+  
+  .accordion-icon-up {
+    border: solid #0047B3;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    width: 0.8em;
+    height: 0.8em;
+    padding: 3px;
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+  
+  }
+.faq{
+    color: #091E42;
+    font-family: 'Clash Grotesk', sans-serif;
+    font-size: 1.5em;
+    font-weight: 600;
+    padding-left: 1em;
+}

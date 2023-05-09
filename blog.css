@@ -1,0 +1,62 @@
+.describeblog{
+    padding-top: 2em;
+    padding-right: 3em !important;
+    margin-top: -7.6em;
+    max-width: 400px;
+    margin-left: 1em;
+    position:relative;
+    z-index: 10000;
+    color: #FFFFFF;
+    padding-bottom: 1.3em;
+}
+.describeblog h2{
+    font-family: 'Clash Grotesk', sans-serif;
+    font-size: 2em;
+}
+.describeblog p{
+    font-family: 'Archivo', sans-serif;
+    font-weight: 400 !important;
+}
+ /* [type=search]{
+    margin-left: 2em !important;
+    border-radius: 8px;
+    width: 50%;
+    left: 364px;
+    top: 306px;
+    padding: 10px;
+
+} */
+.search input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid #B0B0B0;
+    float: left;
+    width: 80%;
+    background: #FFFFFF;
+    border-radius: 8px;
+    margin-left: 2em;
+  }
+  
+  .search input[type=text]:focus {
+    outline: none;
+  }
+.search button {
+    float: left;
+    width: 10%;
+    padding: 10px;
+    background: #E6F0FF;
+    color: white;
+    font-size: 17px;
+    border: 1px solid #B0B0B0;
+    border-left: none;
+    cursor: pointer;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    margin-left: -2em;
+  }
+  .search{
+    padding-bottom: 3em;
+  }
+  .fa{
+    color: #0047B3;
+  }
