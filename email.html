@@ -18,6 +18,8 @@
   <link rel="stylesheet" href="index.css">
   <link rel="stylesheet" href="web.css">
   <link rel="stylesheet" href="blog.css">
+  <link rel="stylesheet" href="email.css">
+
   <title>Document</title>
 </head>
 
@@ -111,61 +113,46 @@
   </nav>
 
 
-  <div>
-    <img class='closeup' src="assets/blog.png" alt="">
-  </div>
-  <div class="describeblog">
-    <h2>Blog<br></h2>
-     <p>Insight into the world of technology</p>
-       
-  </div>
-  <div class="search">
+  <!-- <div class="search">
     <input type="text" >
   <button type="submit"><i class="fa fa-search"></i></button>
-  </div>
+  </div> -->
 
-  <a href="email.html">
-    <div  class="card" style="width: 25rem; padding-top: 2em;">
-    <img   src="assets/email.png" class="card-img-top" alt="...">
-    <p class="newest">Newest</p>
-    <div style="padding-bottom: 3em;"  class="card-body">
+  <div style="width: 25rem; padding-top: 2em; padding-left: 1em; background-color: #F6F6F6;">
+    <!-- <img   src="assets/email.png" class="card-img-top" alt="..."> -->
+    <p style="margin-left: -1em;" class="newest">Newest</p>
+    <div style="padding-bottom: 3em;"  >
       <h5 style="color: #005696; font-size: 1.7em;" class="card-title" > Email Spoofing - How to identify email spoofing</h5>
-      <p class="card-text">It can be difficult to identify email spoofing, as the messages are often designed to look like they are legitimate. However, there are some common signs that may indicate that an email is spoofed.</p>
-    </div>
-    <ul class="list-group list-group-flush">
-      <li class="list-group-item">Author | 4 min read
-      <li class="list-group-item"> 21st April, 2023.</li>
+        </div>
+    <ul >
+      <li style="margin-left: -2.5em; margin-top: -3em;" class="list-group-item">Author Kadoski | 21st April, 2023.
+      
     </ul>
-    <div class="card-body">
-     
-    </div>
-  </div>
-  </a>
+     <!-- </div> -->
 
-  <div class="card" style="width: 25rem;">
-    <img src="assets/chatgpt.png" class="card-img-top" alt="...">
-    <p  class="newest">Newest</p>
-    <div style="padding-bottom: 3em;" class="card-body">
-      <h5 style="color: #005696; font-size: 1.7em;"class="card-title" > ChatGPT 4 is coming soon</h5>
-      <p class="card-text">An AI that can solve difficult problems with accuracy. Unbelievable right?</p>
-    </div>
-    <ul class="list-group list-group-flush">
-      <li class="list-group-item">Author | 4 min read
-      <li class="list-group-item"> 21st April, 2023.</li>
-    </ul>
-
-    <div class="card-body">
-     
-    </div>
-  </div>
 </div>
 
+<div class="card" style="width: 25rem; background-color: #F6F6F6 !important;">
+    <img src="assets/mailhalf.png" class="card-img-top" alt="...">
+    <div class="card-body" style=" background-color: #F6F6F6;">
+      <p class="card-text" style="width: 25rem; background-color: #F6F6F6; font-family: 'Archivo', sans-serif;">
 
+      </p>It can be difficult to identify email spoofing, as the messages are often designed to look like they are legitimate. However, there are some common signs that may indicate that an email is spoofed: <br>
+1. The sender's email address does not match the name or domain of the sender. For example, an email claiming to be from a bank might have a sender's address that does not match the bank's domain name. <br>
+2. The message contains suspicious or unexpected content, such as requests for personal information or urgent requests to take action.<br>
+3. The message contains spelling or grammar errors that suggest it was not written by a professional.<br>
+4. The message contains links or attachments that appear suspicious or unexpected. These may lead to phishing websites or malware.<br>
+The message header information contains inconsistencies, such as different time zones or IP addresses that do not match the sender's location.<br>
+If you suspect that an email is spoofed, it is best to err on the side of caution and not click on any links or provide any personal information. You can also contact the purported sender of the email to verify its authenticity. Additionally, organizations can use email security tools such as SPF, DKIM, and DMARC to help detect and prevent email spoofing.
+    </div>
+  </div>
+
+      <img src="assets/media.png" style="width: 23em; margin-left: 2em; background-color: #F6F6F6;" >
 
 <footer>
   <div class="footer-container">
    <h1>Ready to do business with us?</h1> <br>
-   <p style="margin-top: -1.8em;";>With the best of the best</p> <br>
+   <p style="margin-top: -1.8em;">With the best of the best</p> <br>
    <p style="margin-top: -1.8em;">Email</p>
   <hr>
   <button class="touch">GET IN TOUCH</button>
@@ -214,19 +201,7 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
     integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
     crossorigin="anonymous"></script>
-<script>
- const scrollContainer = document.querySelector(".scroll-container");
-let scrollPos = 0;
 
-setInterval(() => {
-  scrollPos += 320; // Adjust the value to fit the width of your items plus margin
-  scrollContainer.scrollTo({
-    left: scrollPos,
-    behavior: "smooth"
-  });
-}, 2000); // Adjust the value to change the interval between scrolls
-// Change this value to adjust the interval between scrolls
-</script>
 </body>
 
 </html>
