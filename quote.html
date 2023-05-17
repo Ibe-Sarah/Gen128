@@ -27,7 +27,7 @@
       <img style="width: 10em;" src="assets/Frame 1 1.png"> 
       <div></div>
       <div></div>
-      <button class="Pricing">Get Pricing</button> 
+      <button onclick = "window.location.href='quote.html';" class="Pricing">Get Pricing</button> 
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -46,7 +46,7 @@
               Company
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="#">About Us</a></li>
+              <li><a class="dropdown-item" href="who-we-are.html">About Us</a></li>
               <li><hr class="dropdown-divider"></li>
               <li><a class="dropdown-item" href="#">Testimonies</a></li>
               <li><hr class="dropdown-divider"></li>
@@ -62,38 +62,38 @@
               
             </a>
             <ul class="dropdown-menu" aria-labelledby="navDropdown">
-              <li><a class="dropdown-item" href="#">Web & Mobile App Developement</a></li>
+              <li><a class="dropdown-item" href="web.html">Web & Mobile App Developement</a></li>
               <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item" href="#">Database Developement & Analysis</a></li>
+              <li><a class="dropdown-item" href="data-dev.html">Database Developement & Analysis</a></li>
               <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item" href="#">Cloud Services</a></li>
-              <li><hr class="dropdown-divider"></li>
-
-              <li><a class="dropdown-item" href="#">Database Administration</a></li>
+              <li><a class="dropdown-item" href="cloud.html">Cloud Services</a></li>
               <li><hr class="dropdown-divider"></li>
 
-              <li><a class="dropdown-item" href="#">Network Design & Implementation</a></li>
+              <li><a class="dropdown-item" href="data-admin.html">Database Administration</a></li>
               <li><hr class="dropdown-divider"></li>
 
-              <li><a class="dropdown-item" href="#">Leads Generation</a></li>
+              <li><a class="dropdown-item" href="network.html">Network Design & Implementation</a></li>
               <li><hr class="dropdown-divider"></li>
 
-              <li><a class="dropdown-item" href="#">Back Office Support</a></li>
+              <li><a class="dropdown-item" href="lead.html">Leads Generation</a></li>
               <li><hr class="dropdown-divider"></li>
 
-              <li><a class="dropdown-item" href="#">Marketing</a></li>
+              <li><a class="dropdown-item" href="office.html">Back Office Support</a></li>
+              <li><hr class="dropdown-divider"></li>
+
+              <li><a class="dropdown-item" href="market.html">Marketing</a></li>
             </ul>
 
             <a   style=""class="nav-link dropdown-toggle" href="#" id="barDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               Products
             </a>
             <ul class="dropdown-menu" aria-labelledby="barDropdown">
-              <li><a class="dropdown-item" href="#">CRM128
+              <li><a class="dropdown-item" href="crm.html">CRM128
               <li><hr class="dropdown-divider"></li>
               <li><a class="dropdown-item" href="#">PMP128</a></li>
                          </ul>
               <li  style=" margin-top: -2em;"class="nav-item">
-              <a  style="font-family: 'Archivo', sans-serif; color: #091E42;" class="nav-link" href="#">Contact Us</a>
+              <a  style="font-family: 'Archivo', sans-serif; color: #091E42;" class="nav-link" href="contact.html">Contact Us</a>
               </li>
               
           </li>
@@ -110,7 +110,6 @@
     </div>
   </nav>
 
-
   <div>
     <img class='fauxels' src="assets/quote.png" alt="">
   </div>
@@ -120,17 +119,164 @@
    <p>Fill out the form below so that we can provide you with a custom offer.</p>
      
 </div>
-<h2 style="padding-top: 2em; padding-left: 0.5em;">Section A: Introduction</h2>
+<h2 style="padding-top: 2em; padding-left: 0.5em; color: #091E42; font-family: 'Clash Grotesk', sans-serif; font-weight: bold;">Section A: Introduction</h2>
 <form>
-    <label for="name">Name</label>
+    <label for="name"> Client Name</label>
     <input id="name" placeholder="Your name" type="text" name="'name"></input>
     
-    <label for="email">Email</label>
-     <input id="email" placeholder="you@company.com" type="email" name="email">
+    <label for="business"> Name of Business</label>
+     <input id="business" placeholder="you@company.com" type="business" name="business">
     
     <label for="tel">
       Phone number </label>
       <input type="tel" id="tel">
+
+      <label for="email">
+        Email </label>
+        <input type="email" id="email" placeholder="you@company.com">
+
+        <label for="website">
+          Website </label>
+          <input type="text" id="text" placeholder="www.company.com">
+</form>
+
+<h2 style="padding-top: 2em; padding-left: 0.5em; color: #091E42; font-family: 'Clash Grotesk', sans-serif; font-weight: bold;">Section B: Pre-Qualifying Questions</h2>
+
+<div class="pre">
+  <h4>1. What is the current stage of your project?</h4>
+  <br>
+  <div style="margin-top: -1.3em;">
+<input id="one" type="radio">
+<label for="one" >Idea</label>
+<br>
+
+<input id="two" type="radio">
+<label for="two" >Design Solution</label>
+<br>
+
+<input id="three" type="radio">
+<label for="three" >Developed Product</label>
+<br>
+
+<input id="four" type="radio">
+<label for="four" >Prototype/Specification</label>
+<br>
+<input id="five" type="radio">
+<label for="five" >MVP</label>
+  </div>
+</div>
+
+<div class="industry">
+ <h4> 2. Choose your company's business industry?</h4>
+  <h5>Manufacturing</h5>  <h5>Logistics</h5>  <h5>Avaiation</h5>
+  <h5>Real Estate</h5>  <h5>Healthcare</h5>  <h5>Travel & Hospitality</h5>
+  <h5 style="background-color: #0047B3; color: #FFFFFF;">Transportation</h5>  <h5>Retail</h5>  <h5>Other</h5>   
+</div>
+
+<div class="qualify">
+  <h4>3. What services do you need?</h4>
+  <br>
+
+<div style="margin-top: -1.3em;">
+<input id="dev" type="checkbox">
+<label for="dev" >Developement</label>
+<br>
+
+<input id="PM" type="checkbox">
+<label for="PM" >Project Management</label>
+<br>
+
+<input id="UI" type="checkbox">
+<label for="UI" >UI/UX Design</label>
+<br>
+
+<input id="QA" type="checkbox">
+<label for="QA" >Quality Assurance</label>
+<br>
+
+<input id="LG" type="checkbox">
+<label for="LG" >Leads Generation</label>
+<br>
+<input id="Back" type="checkbox">
+<label for="Back" >Back Office Support</label>
+<br>
+
+<input id="MS" type="checkbox">
+<label for="MS" >Marketing Solution</label>
+<br>
+
+<input id="Cloud" type="checkbox">
+<label for="Cloud" >Cloud Services</label>
+<br>
+
+<input id="base" type="checkbox">
+<label for="base" >Database Administration</label>
+<br>
+
+<input id="Net" type="checkbox">
+<label for="Net" >Network Design and Implementation</label>
+<br>
+  </div>
+  <p>clear</p>
+</div>
+
+<div class="duration">
+
+  <h4>4. What is the expected duration of your project?</h4>
+  <br>
+
+<div style="margin-top: -1.3em;">
+<input id="onemonth" type="radio">
+<label for="onemonth" >1 Month</label>
+<br>
+
+<input id="twomonth" type="radio">
+<label for="twomonth" >3 Months</label>
+<br>
+
+<input id="threemonth" type="radio">
+<label for="threemonth" >6 Months</label>
+<br>
+
+<input id="year1" type="radio">
+<label for="year1" >1 Year</label>
+<br>
+<input id="year1.5" type="radio">
+<label for="year1.5" >1.5 Years</label>
+<br>
+<input id="2plus" type="radio">
+<label for="2plus" >2+ Year</label>
+<br>
+<input id="Other" type="radio">
+<label for="other" >Other</label>
+<br>
+  </div>
+</div>
+
+<div class="users">
+  <h4>5. How many users do you have?</h4>
+  <br>
+
+  <div style="margin-top: -1.3em;">
+<input id="onemonth" type="radio">
+<label for="onemonth" >3-5</label>
+<br>
+
+<input id="twomonth" type="radio">
+<label for="twomonth" >6-10</label>
+<br>
+
+<input id="threemonth" type="radio">
+<label for="threemonth" >11-20</label>
+<br>
+
+<input id="year1" type="radio">
+<label for="year1" >20+</label>
+  </div>
+</div>
+
+
+
 
 
   <div>
