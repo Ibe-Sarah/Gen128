@@ -2,6 +2,10 @@
 body{
   background-color:  #F6F6F6;
 }
+
+.navbar-toggler{
+  border: none;
+}
 .closeup{
   height: 17.2em;
   z-index: 0;
@@ -299,6 +303,12 @@ footer {
   padding-left: 2em;
   padding-right: 2em;
 }
+
+@media (max-width: 390px) {
+  .privacy{
+    font-size: 0.9em;
+  }
+  }
 
 .footer-container {
   max-width: 1200px;

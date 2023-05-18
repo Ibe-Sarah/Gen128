@@ -81,6 +81,13 @@ text-align: center;
     padding-right: 0.5em;
 
 }
+
+@media (max-width: 390px){
+    .grid-details{
+        height: 7.3em !important; 
+    }
+    
+}
 .grid-details h4{
 font-family: 'Archivo', sans-serif;
 font-style: normal;
