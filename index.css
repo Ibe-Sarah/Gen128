@@ -3,9 +3,54 @@ body{
   background-color:  #F6F6F6;
 }
 
+
+.navbar {
+  -webkit-transition: all 0.6s ease-out;
+  -moz-transition: all 0.6s ease-out;
+  -o-transition: all 0.6s ease-out;
+  -ms-transition: all 0.6s ease-out;
+  transition: all 0.6s ease-out;
+  border-radius: 0px;
+  ;
+}
+
+
 .navbar-toggler{
   border: none;
+ 
 }
+.navbar-toggler:focus{
+  outline: none !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.navbar-toggler-icon{
+  opacity: 0;
+}
+
+.svg{
+  margin-top: -1.8em;
+  color: #091E42;
+  display: inline-block;
+}
+
+.close-icon{
+  color: #091E42;
+  margin-top: -1.8em;
+}
+
+
+.navbar-toggler:not(.collapsed) .svg {
+  display: none;
+}
+.navbar-toggler.collapsed .close-icon {
+  display: none;
+}
+
+
+
+
 .closeup{
   height: 17.2em;
   z-index: 0;
@@ -26,18 +71,70 @@ body{
 }
 
 .dropdown-toggle::after {
-  margin-left: 17em !important;
+  margin-left: 15em !important;
   /* display: none; */
+  opacity: 0;
   
 }
+.chevup{
+  width: 1.5em;
+  margin-left: 14.5em !important;
+
+}
+
+
+.chevdown{
+  width: 1.5em;
+  margin-left: 14.5em !important;
+
+}
+
+.chevup2{
+  width: 1.5em;
+  margin-left: 15em !important;
+  
+
+}
+
+
+.chevdown2{
+  width: 1.5em;
+  margin-left: 15em !important;
+
+}
+
+
+.hidden {
+  display: none;
+}
+
+
+.chevup3{
+  width: 1.5em;
+  margin-left: 14.9em !important;
+}
+.chevdown3{
+  width: 1.5em;
+  margin-left: 15em !important;
+
+}
+
+
+
 .dropdown-menu{
   background-color: #EFF8ED;
   /* padding-bottom: 2em !important; */
+  border-radius:1px;
+
 }
+a.dropdown-item:hover{
+  background-color: transparent !important
+
+} 
 .dropdown-item{
   font-family: 'Archivo', sans-serif;
   color: #091E42;
-  /* margin-bottom: 1em; */
+  margin-bottom: -0.5em;
 }
 .dropdown-divider{
   color:#FFFFFF !important;
@@ -45,19 +142,22 @@ body{
 .dropdown-toggle{
   font-family: 'Archivo', sans-serif !important;
   color: #091E42 !important;
+  font-weight: 600;
+}
+.nav-link{
+  font-weight: 600;
 }
 .fa-regular {
   margin:2px;
   color: black;
 }
 #navDropdown.nav-link.dropdown-toggle::after {
-  margin-left: 17.5em !important;
+  margin-left: 15.5em !important;
 
 }
 
 #barDropdown.nav-link.dropdown-toggle::after {
-  margin-left: 17.3em !important;
-
+  margin-left: 10.3em !important;
 }
 
 .Strength{
