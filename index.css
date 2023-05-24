@@ -70,6 +70,7 @@ body{
   padding-left: 2em;
 }
 
+
 .dropdown-toggle::after {
   margin-left: 15em !important;
   /* display: none; */
@@ -160,6 +161,10 @@ a.dropdown-item:hover{
   margin-left: 10.3em !important;
 }
 
+.nav-contact{
+margin-top: 2em!important;
+margin-left: 2em;
+}
 .Strength{
     display: flex;
     top: 150 !important;
@@ -343,8 +348,9 @@ max-width: 400px;
   }
   a{
     text-decoration: none;
+    color: #005696;
   }
-.services{
+  .services{
   font-size: 28px;
   margin: 0;
   text-align: left;
@@ -393,6 +399,10 @@ max-width: 400px;
   line-height: 90%;
   color: #005696;
   
+}
+
+.we-are{
+  display: none;
 }
 footer {
   background-color:#091E42;
@@ -475,6 +485,13 @@ padding-top: 1em;
 padding-bottom: 1em;
 }
 
+.desktop{
+  display: none;
+  }
+
+  #desktop-copy{
+    display: none;
+  }
 @media (max-width: 414px) {
   .privacy {
  margin-top: 0.8em;
@@ -490,4 +507,364 @@ padding-bottom: 1em;
     
     }
 
-    /* Styling for web development page */
+
+    /* @media query*/
+@media (min-width: 960px){
+  /* Navbar styling begins */
+  .chevdown{
+    display: none !important;
+    margin-left: 1em !important;
+
+  }
+  .chevdown2{
+    display: none;
+    margin-left: 1em !important;
+  }
+
+  .chevdown3{
+    display: none;
+    margin-left: 1em !important;
+  }
+.chevup{
+  margin-left: 1em !important;
+}
+.chevup2{
+  margin-left: 1em !important;
+  
+}
+.chevup3{
+  margin-left: 1em !important;
+}
+
+  .Pricing{
+    margin-left: 5em !important;
+  }
+
+
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .navbar img {
+    width: 10em;
+  }
+  .nav-item{
+    padding-top: 1em;
+    padding-left: 2em;
+  }
+  
+  .navbar button.Pricing {
+    margin-left: 13em !important;
+  }
+
+  .navbar-collapse {
+    flex-basis: auto;
+    flex-grow: 1;
+    justify-content: flex-end;
+  }
+
+  .navbar-nav {
+    flex-direction: row;
+  }
+
+  .navbar-nav .nav-item {
+    display: flex;
+    margin-left: 4em;
+  }
+
+  .navbar-nav .nav-link {
+    padding: 0.5em;
+  }
+
+  .navbar-nav .dropdown-menu {
+    margin-top: 0;
+  }
+  .dropdown-menu{
+    margin-left: 3em;
+  }
+  .dropdown-toggle{
+    margin-left: 1em;
+  }
+  #navDropdown{
+    margin-left: -15em;
+  }
+
+  #barDropdown{
+    margin-left: -15em;
+
+  }
+  #bar-menu{
+    margin-left: 20em !important;
+  }
+
+  #nav-menu{
+    margin-left: 5em;
+  }
+
+  .nav-contact{
+     margin-top: 1em !important;
+     margin-left: -10em;
+  }
+
+  /* Navbar styling ends */
+
+  /* first card on the page */
+  .closeup{
+    height: 35.2em;
+    width: 100%;
+    
+  }
+  
+  .Strength{
+    max-width: 800px !important;
+    height: 12em;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+
+  .experience{
+    display: flex;
+    height: 6em;
+    width: 15em !important;
+    margin-left: 5em;
+    margin-top: 1em;
+  }
+
+  .experience h1{
+    font-size: 1.8em;
+  }
+
+  .experience p{
+    width: 8.5em;
+    font-size: 0.8em;
+  }
+  .numbers h3{
+    font-size: 1.3em;
+    width: 16em;
+    padding-left: 1em;
+  }
+
+  .results{
+    font-size: 0.8em;
+    width: 22em !important;
+    padding-left: 1.2em !important;
+    display: inline-block;
+    padding-bottom: 1em !important;
+  }
+.results br{
+  display: none;
+}
+
+/* first card on the page styling ends */
+
+/* core values card styling begins */
+
+.services{
+  padding-left: 2.5em;
+}
+.superior{
+  font-size: 0.6em !important;
+  /* padding-left: 2em; */
+}
+#card-values{
+  margin-top: 2em;
+  width: 100% !important;
+  max-width: 800px;
+}
+#card-values h2{
+  text-align: center;
+}
+.card-service{
+  display: flex;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  /* gap: 13px; */
+}
+
+.card-service .card{
+  width: 19rem !important;
+  height: 19rem;
+  margin-left: 1em !important;
+  
+
+}
+
+.card-service .card-title{
+  font-size: 1em;
+}
+.card-service .card-text{
+  font-size: 0.8em !important;
+  padding-bottom: 2em;
+}
+
+.card-service a{
+  width: 8em;
+  font-size: 0.7em;
+  padding-left: 1em !important;
+  padding-right: 1em !important;
+  margin-top: -4em;
+}
+
+#id-data a, #id-lead a{
+  margin-top: -4.5em;
+}
+
+#id-data .card-text, #id-lead .card-text{
+  padding-bottom: 1em;
+  
+}
+/* core values card styling ends */
+
+/* who we are div styling begins*/
+
+.who-we-are{
+  display: none;
+}
+.we-are{
+  display: flex;
+  padding-left: 2.5em;
+  padding-top: 2em;
+  background-image: url(assets/gradient.png) !important;
+  height: 35em;
+  backdrop-filter: blur(78.7544px);
+  background-position: left ;
+background-size: 200%;
+}
+
+.we-are .who{
+  font-size: 1.7em !important;
+  color: #005696;
+}
+.we-are p{
+   font-size: 0.6em !important;
+   font-weight: 600;
+   color: #091E42 !important;
+   padding-top: 1em;
+   
+}
+ .we-are .business{
+  color: #091E42 !important;
+  font-size: 0.6em !important;
+  font-weight: 600;
+}
+
+.we-are img{
+  margin-left: 15em !important;
+  margin-top: 2em;
+}
+
+.we-are a{
+  background-color: #0047B3;
+  color: white;
+}
+
+/* who we are div stying ends*/
+
+/* news card styling begins */
+
+.tech{
+  padding-top: 3em;
+  color: #005696 !important;
+  font-size: 2em;
+  line-height: 110%;
+  padding-left: 2em;
+}
+.hover:hover{
+  pointer-events: none;
+}
+.card-news{
+  display: flex;
+  width: 80%;
+  
+}
+
+.card-news .card{
+width: 20rem !important;
+height: 27em;
+}
+.card-news .card-title{
+  font-size: 1em !important;
+  margin-top: -1.5em;
+}
+.card-news .newest{
+  margin-top: -1.3em;
+
+}
+.card-news .card-text{
+  font-size: 0.8em !important;
+}
+.card-news ul{
+  font-size: 0.5em;
+  margin-top: -2em;
+}
+#info{
+  margin-left: -5em;
+}
+#info ul{
+  margin-top: 7.5em;
+  /* height: 20em !important; */
+}
+
+.list-group{
+  gap: 15em;
+}
+/* news card styling ends */
+
+/* footer styling begins */
+.mobile{
+  display: none;
+
+}
+.copy{
+  display: none;
+}
+
+.desktop{
+  display: flex;
+  margin-top: 7em;
+}
+.desktop-first{
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-container h4{
+  font-size: 1.1em;
+}
+.footer-container h5{
+  font-size: 0.9em;
+}
+.desktop-copy{
+display: flex;
+justify-content: space-between;
+background-color: #15294B;
+text-align: center;
+color: #FFFFFF;
+font-family: 'Archivo', sans-serif;
+padding-top: 1em;
+padding-bottom: 1em;
+    }
+
+    .desktop-copy p{
+      font-size: 0.8em;
+      padding-left: 5.5em;
+      text-align: center;
+      padding-top: 1em;
+    }
+    .desktop-copy img{
+      gap: 10px;
+      /* margin-left: -2em; */
+    }
+    .social-media{
+      display: flex;
+      gap: 10px;
+      padding-top: 1em;
+    }
+}
+
+  
+
+

@@ -50,3 +50,29 @@ font-size: 1.1em;
         background-color: #E6F0FF;
       }
       
+/* media query */
+@media (min-width: 960px){
+
+    .fauxels{
+  height: 36em;
+  width: 100%;
+
+    }
+
+    .describedata{
+        text-align: left;
+        max-width: 800px;
+        padding-left: 2em;
+        line-height: 100%;
+      }
+      
+      body{
+        background-color: #C4C4C4;
+      }
+      .quote-form{
+        padding-top: 4em;
+        background-color: #FFFFFF !important;
+        border-radius: 24px;
+        width: 70%;
+      }
+}

@@ -84,7 +84,7 @@
               </svg>
                
             </a>
-            <ul class="dropdown-menu" aria-labelledby="navDropdown">
+            <ul class="dropdown-menu" id="nav-menu" aria-labelledby="navDropdown">
               <li><a class="dropdown-item" href="web.html">Web & Mobile App Developement</a></li>
               <li><hr class="dropdown-divider"></li>
               <li><a class="dropdown-item" href="data-dev.html">Database Developement & Analysis</a></li>
@@ -118,12 +118,12 @@
               
             </a>
 
-            <ul class="dropdown-menu" aria-labelledby="barDropdown">
+            <ul class="dropdown-menu"  id="bar-menu" aria-labelledby="barDropdown">
               <li><a class="dropdown-item" href="crm.html">CRM128
               <li><hr class="dropdown-divider"></li>
               <li><a class="dropdown-item" href="#">PMP128</a></li>
                          </ul>
-              <li  style=" margin-top: -2em;"class="nav-item">
+              <li  style=" margin-top: -2em;"class="nav-contact" id="navContact"> 
               <a  style="font-family: 'Archivo', sans-serif; color: #091E42;" class="nav-link" href="contact.html">Contact Us</a>
               </li>
               
@@ -155,18 +155,20 @@
       </div>
 
   <div class="experience">
-    
+    <div>
       <h1>10</h1> <p style="text-align: center
       ; line-height: 90%;">Years of experience</p> 
-      
+    </div>
+
+    <div>
       <h1>5M+</h1> <p style="text-align: center
       ; ">Global Users</p>
-    
+    </div>
   </div>
 
 </div>
 </section>
-<div class="card">
+<div  id="card-values" class="card">
   <h2 class="title">Core Value <br> <span class="critics">We are our own C.R.I.T.I.C.S</span></h2>
   <div class="scroll-container">
     <div class="items">
@@ -205,8 +207,10 @@
   </div>
 </div>
 
-<div>
+<div class='gradient'>
   <h2 class="services">Our Services <br> <span class="superior">We provide superior service and support</span></h2>
+
+  <div class="card-service">
   <div class="card" style="width: 25rem;">
     <img src="assets/web dev.png" class="card-img-top" alt="...">
     <div class="card-body">
@@ -216,7 +220,7 @@
     </div>
   </div>
 
-  <div class="card" style="width: 25rem; padding-top: 2em !important;">
+  <div class="card" style="width: 25rem; ">
     <img src="assets/data-base.png" class="card-img-top" alt="...">
     <div class="card-body">
       <h5 class="card-title">Database Administration</h5>
@@ -225,7 +229,7 @@
     </div>
   </div>
 
-  <div class="card" style="width: 25rem;">
+  <div id="id-data" class="card" style="width: 25rem;">
     <img src="assets/datadev.png" class="card-img-top" alt="...">
     <div class="card-body">
       <h5 class="card-title">Database Development and Analysis</h5>
@@ -234,7 +238,7 @@
     </div>
   </div>
 
-  <div class="card" style="width: 25rem;">
+  <div id="id-lead" class="card" style="width: 25rem;">
     <img src="assets/lead.png" class="card-img-top" alt="...">
     <div class="card-body">
       <h5 class="card-title">Lead Generation</h5>
@@ -242,11 +246,12 @@
       <a href="lead.html" class="btn btn-primary">Learn more</a>
     </div>
   </div>
+  </div>
+</div >
 
-</div class='gradient'>
-
-<div>
+<div class="who-we-are">
 <h2 class="who">WHO WE ARE <br> <span class="business">At GEN128 Business Solution, we are passionate about leveraging technology to solve business challenges and improve the lives of our clients. </span></h2>
+
 <div class="card" style="width: 25rem;">
   <img src="assets/business-people-casual-meeting (1) 1.png" class="card-img-top" alt="...">
   <div class="card-body">
@@ -256,11 +261,33 @@
   </div>
 </div>
 </div>
+
+<div class="we-are">
+  <h2 style="font-size: 1.5em;
+  color: #005696;" class="who">Who We Are <br> <span class="business">At GEN128 Business Solution, we are passionate about <br> leveraging technology to solve business challenges and improve the lives of our <br> clients. </span>
+
+    <p class="card-text">Our aim is to develop solutions that are both effective and efficient.<br> Whether you need a complete software system or ongoing IT support, we <br> are here to help.</p>
+    <a href="who-we-are.html" class="btn btn-primary">Learn more</a>
+
+  </h2>
+  
+  <div class="" style="width: 25rem;">
+    <img src="assets/business-people-casual-meeting (1) 1.png" class="card-img-top" alt="...">
+    <div class="card-body">
+      <!-- <h5 class="card-title">Web and Mobile Developement</h5> -->
+    </div>
+  </div>
+  </div>
+  
+
 <div>
-  <a href="blog.html"><p  class="tech">
+  <a  href="blog.html">
+    <p  class="tech">
     Get more insight into the <br>
     world of Technology</a>
   </p>
+
+  <div class="card-news">
   <div class="card" style="width: 25rem;">
     <img   src="assets/email.png" class="card-img-top" alt="...">
     <p class="newest">Newest</p>
@@ -277,7 +304,7 @@
     </div>
   </div>
 
-  <div class="card" style="width: 25rem;">
+  <div id="info" class="card" style="width: 25rem;">
     <img src="assets/chatgpt.png" class="card-img-top" alt="...">
     <p  class="newest">Newest</p>
     <div style="padding-bottom: 3em;" class="card-body">
@@ -293,11 +320,13 @@
      
     </div>
   </div>
+
+  </div>
 </div>
 
 
 
-<footer>
+<footer class="mobile">
   <div class="footer-container">
    <h1>Ready to do business with us?</h1> <br>
    <p style="margin-top: -1.8em;";>With the best of the best</p> <br>
@@ -344,6 +373,61 @@
  <p class="copy">© Copyright 2022, All Rights Reserved by GEN128</p>
 
 
+ <footer class="desktop">
+
+  <div class="footer-container">
+<img src="assets/Gen128-logo.png" width="145em" height="35em">
+<p style="padding-top: 1em;">Design amazing digital experiences <br> that create more happy in the world.</p>
+<div class="">
+  <h4>Office Address</h4>
+  <p>31 Unity Road, Ikeja Lagos State</p>
+  <p style="margin-top: -1em;">Email: csofficer@gn128.com</p>
+ </div>
+  </div>
+
+  <div class="footer-container">
+<h6>Company</h6>
+<h5>About Us</h5>
+<h5>Testimonies</h5>
+<h5>Partnership</h5>
+<h5>Career</h5>
+  </div>
+
+  <div class="footer-container">
+    <h6>Services</h6>
+    <h5>Web & Mobile App</h5>
+    <h5>Database Developement</h5>
+    <h5>Cloud Service</h5>
+    <h5>Database Administration</h5>
+    <h5>Network Design</h5>
+    <h5>Leads Generation</h5>
+    <h5>Back Office Support</h5>
+    <h5>Marketing</h5>
+      </div>
+
+      <div class="footer-container">
+        <h6>Products</h6>
+        <h5>CRM128</h5>
+        <h5>PMP128</h5>
+          </div>
+     
+  <div class="footer-container">
+   <h1>Ready to do business with us?</h1> <br>
+   <p style="margin-top: -1.8em;";>With the best of the best</p> <br>
+   <p style="margin-top: -1.8em;">Email</p>
+  <hr>
+  <button class="touch">GET IN TOUCH</button>
+   </div>
+  
+ </footer>
+ <div class="desktop-copy">
+ <p>© Copyright 2022, All Rights Reserved by GEN128</p>
+
+ <div class="social-media" style="padding-right: 3em;">
+ <img  src="assets/Ln.png" width="18em" height="18em">
+ <img src="assets/fb.png" width="18em" height="18em">
+ </div>
+ </div>
 
   
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
