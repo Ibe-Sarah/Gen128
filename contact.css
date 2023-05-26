@@ -33,9 +33,94 @@
 
 textarea{
     height: 7em;
-    margin-top: 1em;
+    margin-top: 0.1em !important;
     border: 3px solid #D0D5DD;
     border-radius: 10px;
     padding-bottom: 2em;
 
+}
+
+.contact-form-desktop{
+    display: none;
+}
+
+/* media query */
+
+@media (min-width: 960px){
+
+    body{
+background-color: #F6F6F6;
+    }
+    form{
+        width: 63%;
+        border-radius: 24px;
+        margin-left: auto;
+        margin-right: auto;
+        height: 38em;
+    }
+
+    .contact-form-mobile{
+        display: none;
+    }
+    .contact-form-desktop{
+        display: grid !important; 
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(6, 1fr) !important; 
+        padding-top: 6em;
+    }
+
+    .contact-form-desktop #name{
+        grid-column: 1/4 !important;
+        width: 24em;
+        margin-top: -6.5em;
+    }
+
+    .contact-form-desktop #lastname{
+        margin-top: -11.7em;
+        margin-left: -15.3em;
+        width: 24em ;
+    }
+
+    .contact-form-desktop #email{
+        width: 24em !important;
+        margin-top: -10em;
+    }
+
+    .contact-form-desktop #tel{
+        margin-top: -10em;
+        margin-left: -27.3em !important;
+        width: 24em;
+    }
+
+    .contact-form-desktop textarea{
+        margin-top: 13em !important;
+        position: absolute;
+        margin-left: 0.1em !important;
+        border: 1px solid #D0D5DD;
+        
+    }
+    .describecontact{
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 3em;
+    }
+
+    .send-msg{
+height: 54px;
+width: 388px;
+left: 20px;
+top: 1978px;
+border-radius: 4px;
+padding: 16px 24px 16px 24px;
+background-color: #0047B3;
+border: none;
+color: #FFFFFF;
+margin-left: 1.3em !important;
+margin-right: auto !important;
+/* margin-top: 0.5em; */
+margin-bottom: 3em;
+font-family: 'Clash Grotesk', sans-serif;
+
+    }
 }

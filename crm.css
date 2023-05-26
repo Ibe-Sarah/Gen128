@@ -82,6 +82,15 @@ text-align: center;
 
 }
 
+
+.desktop-dashboard{
+    display: none;
+}
+
+.Strength{
+    display: none;
+}
+
 @media (max-width: 390px){
     .grid-details{
         height: 7.3em !important; 
@@ -105,3 +114,86 @@ letter-spacing: 0em;
 text-align: left;
 
 }
+
+@media (min-width: 960px){
+.describecrm{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -30em !important;
+}
+
+.describecrm h4{
+    font-size: 2.4em;
+}
+
+.describecrm p{
+    font-size: 1.3em;
+}
+
+.mobile-dashboard{
+    display: none;
+}
+
+.desktop-dashboard{
+    display: block;
+    margin-left: 29em;
+    margin-right: auto !important;
+}
+
+.leads{
+    display: none;
+}
+.Strength{
+    display: block;
+    margin-top: 3em;
+}
+
+.experience{
+    margin-left: 33em;
+    margin-top: -4em;
+    width: 13em !important;
+    height: 2.7em !important;
+    border-radius: 4px !important;
+    /* font-size: 0.9em !important; */
+}
+
+.experience h1{
+    font-size: 1.3em !important;
+}
+
+.results{
+    font-size: 1em;
+    padding-top: 2em;
+}
+
+.crmfeat{
+    width: 25em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+}
+
+.desktop-crm-grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    width: 70%;
+    margin-left: 12em;
+}
+.crm-grid{
+    width: 30em;
+    
+}
+.grid-details{
+    height: 10em;
+}
+.crm-grid img{
+    height: 10em;
+}
+
+.crm-consult{
+    margin-left: 25em !important;
+    margin-right: auto !important;
+}
+}
+

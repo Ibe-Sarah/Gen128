@@ -18,6 +18,7 @@
   <link rel="stylesheet" href="web.css">
   <link rel="stylesheet" href="data-admin.css">
   <link rel="stylesheet" href="office.css">
+  <link rel="stylesheet" href="lead.css">
   <title>GEN128</title>
 </head>
 
@@ -75,7 +76,7 @@
               <li><a class="dropdown-item" href="#">Insight</a></li>
               </ul>
 
-            <a style="" class="nav-link dropdown-toggle" href="#" id="navDropdown" id="dropdown2" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <a style="" class="nav-link dropdown-toggle" href="services.html" id="navDropdown" id="dropdown2" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               Services  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" class="chevup2" stroke="currentColor" >
                 <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 15.75l7.5-7.5 7.5 7.5" />
               </svg>
@@ -85,7 +86,7 @@
               </svg>
                
             </a>
-            <ul class="dropdown-menu" aria-labelledby="navDropdown">
+            <ul class="dropdown-menu" id="nav-menu" aria-labelledby="navDropdown">
               <li><a class="dropdown-item" href="web.html">Web & Mobile App Developement</a></li>
               <li><hr class="dropdown-divider"></li>
               <li><a class="dropdown-item" href="data-dev.html">Database Developement & Analysis</a></li>
@@ -119,12 +120,12 @@
               
             </a>
 
-            <ul class="dropdown-menu" aria-labelledby="barDropdown">
+            <ul class="dropdown-menu"  id="bar-menu" aria-labelledby="barDropdown">
               <li><a class="dropdown-item" href="crm.html">CRM128
               <li><hr class="dropdown-divider"></li>
               <li><a class="dropdown-item" href="#">PMP128</a></li>
                          </ul>
-              <li  style=" margin-top: -2em;"class="nav-item">
+              <li  style=" margin-top: -2em;"class="nav-contact" id="navContact"> 
               <a  style="font-family: 'Archivo', sans-serif; color: #091E42;" class="nav-link" href="contact.html">Contact Us</a>
               </li>
               
@@ -142,7 +143,6 @@
     </div>
   </nav>
 
-
  
   <div>
     <img class='fauxels' src="assets/office.png" alt="">
@@ -156,6 +156,8 @@
 <p class="subdesoffice">
     Our services will take care of all your office admin duties which Include amongst others:
 </p>
+
+<div class="card-desktop">
 <div  class="card" style="width: 25rem; ">
     <div class="card-body"  >
         
@@ -211,12 +213,13 @@
         with your objectives.</p>
          </div>
   </div>
-
+</div>
   
-  <div>
+  <div id="desk-consult">
     <button class="consult">Book Consultation</button>
   </div>
-<footer>
+ 
+<footer class="mobile">
   <div class="footer-container">
    <h1>Ready to do business with us?</h1> <br>
    <p style="margin-top: -1.8em;";>With the best of the best</p> <br>
@@ -263,6 +266,63 @@
  <p class="copy">© Copyright 2022, All Rights Reserved by GEN128</p>
 
 
+ <footer class="desktop">
+
+  <div class="footer-container">
+<img src="assets/Gen128-logo.png" width="145em" height="35em">
+<p style="padding-top: 1em;">Design amazing digital experiences <br> that create more happy in the world.</p>
+<div class="">
+  <h4>Office Address</h4>
+  <p>31 Unity Road, Ikeja Lagos State</p>
+  <p style="margin-top: -1em;">Email: csofficer@gn128.com</p>
+ </div>
+  </div>
+
+  <div class="footer-container">
+<h6>Company</h6>
+<h5>About Us</h5>
+<h5>Testimonies</h5>
+<h5>Partnership</h5>
+<h5>Career</h5>
+  </div>
+
+  <div class="footer-container">
+    <h6>Services</h6>
+    <h5>Web & Mobile App</h5>
+    <h5>Database Developement</h5>
+    <h5>Cloud Service</h5>
+    <h5>Database Administration</h5>
+    <h5>Network Design</h5>
+    <h5>Leads Generation</h5>
+    <h5>Back Office Support</h5>
+    <h5>Marketing</h5>
+      </div>
+
+      <div class="footer-container">
+        <h6>Products</h6>
+        <h5>CRM128</h5>
+        <h5>PMP128</h5>
+          </div>
+     
+  <div class="footer-container">
+   <h1>Ready to do business with us?</h1> <br>
+   <p style="margin-top: -1.8em;";>With the best of the best</p> <br>
+   <p style="margin-top: -1.8em;">Email</p>
+  <hr>
+  <button class="touch">GET IN TOUCH</button>
+   </div>
+  
+ </footer>
+ <div class="desktop-copy">
+ <p>© Copyright 2022, All Rights Reserved by GEN128</p>
+
+ <div class="social-media" style="padding-right: 3em;">
+ <img  src="assets/Ln.png" width="18em" height="18em">
+ <img src="assets/fb.png" width="18em" height="18em">
+ </div>
+ </div>
+
+
 
 
 
@@ -293,7 +353,7 @@ setInterval(() => {
       $(this).find(".chevup").hide();
       $(this).find(".chevdown").show();
     }).on("hide.bs.dropdown", function() {
-      $(this).find(".chedown").hide();
+      $(this).find(".chevdown").hide();
       $(this).find(".chevup").show();
     });
   

@@ -1,11 +1,29 @@
-.subdesoffice{
-    color: #091E42;
-    padding-top: 3em;
-    padding-left: 1.3em;
-    font-size: 1.2em;
-    font-weight: 500;
-    font-family: 'Archivo', sans-serif;
+.fauxels{
+    height: 17.2em;
+    z-index: 0;
+  }
+  .describedev{
+    padding-top: 2em;
+    padding-right: 3em !important;
+    margin-top: -13.6em;
+    max-width: 400px;
+    margin-left: 1em;
+    position:relative;
+    z-index: 10000;
+    color: #FFFFFF;
+    padding-bottom: 1.3em;
 }
+.describedev h2{
+    font-family: 'Clash Grotesk', sans-serif;
+    font-size: 2em;
+}
+.describedev p{
+    font-family: 'Archivo', sans-serif;
+    font-weight: 400 !important;
+}
+
+
+
 @media (min-width: 960px){
     /* Navbar styling begins */
 
@@ -14,12 +32,12 @@
     height: 36em;
 }
 
-.describedata{
+.describedev{
    
 text-align: left;
 max-width: 900px;
 padding-left: 13em;
-line-height: 100%;
+line-height: 120%;
 margin-top: -13em;
              
 }
@@ -32,7 +50,7 @@ margin-top: -13em;
 
 
 
-.card-desktop{
+.dev-desktop{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
@@ -41,21 +59,22 @@ margin-top: -13em;
     margin-left: 13.1em;
     margin-right: auto;
     padding-top: 3em;
+    margin-top: 6em;
 }
 
-.card-desktop .card{
+.dev-desktop .card{
     width: 18rem !important;
 }
 
 
-.card-desktop h5{
+.dev-desktop h5{
     font-size: 1em;
     margin-left: -1.7em !important;
     width: 18em !important;
     margin-top: -1.5em !important;
 }
 
-#desk-consult{
+#dev-consult{
     margin-left: 12.5em !important;
 }
 }

@@ -37,3 +37,73 @@
     padding-left: 1em;
     padding-right: 1em;
 }
+
+.subdesoffice{
+    display: none;
+}
+@media (min-width: 960px){
+    /* Navbar styling begins */
+  
+.describemark{
+   
+    text-align: left;
+    max-width: 900px;
+    padding-left: 9.5em;
+    line-height: 100%;
+    margin-top: -13em;
+                 
+    }
+
+    .desk-mark{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        width: 70%;
+        /* justify-content: left; */
+        margin-left: 10em;
+        margin-right: auto;
+        padding-top: 10em;
+    }
+    
+    .desk-mark .card{
+        width: 18rem !important;
+    }
+    
+    
+    .desk-mark h5{
+        font-size: 1em;
+        margin-left: -1.7em !important;
+        width: 18em !important;
+        margin-top: -1.5em !important;
+    }
+    
+
+    .subdesoffice{
+        padding-top: 5em !important;
+        margin-left: 8em !important;
+        padding-right: 5em;
+        display: block;
+    }
+
+    .marketing h4{
+        text-align: left !important;
+        padding-left: 7em;
+        width: 30em;
+        margin-top: -13em;
+        padding-top: 2em;
+    }
+
+    .marketing h4 br{
+        display: none;
+    }
+    .marketing p{
+        padding-left: 10.4em;
+        width: 75em;
+    }
+    .consult-mark{
+        background-color:#EFF8ED;
+        margin-top: -1em;
+        padding-left: 9em;
+        padding-bottom: 2em;
+    }
+}

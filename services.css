@@ -1,0 +1,74 @@
+.guarantee  h6{
+font-family: 'Archivo' , sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 120%;
+padding-left: 1.6em !important;
+padding-top: 1em;
+padding-right: 1em;
+}
+
+.guarantee h5{
+font-family: 'Archivo' , sans-serif;
+font-style: normal;
+font-weight: 600;
+line-height: 120%;
+padding-left: 1.2em !important;
+padding-top: 1.7em;
+
+}
+.guarantee h4{
+font-family: 'Clash Grotesk';
+font-style: normal;
+font-weight: 600;
+font-size: 23px;
+line-height: 120%;
+color: #091E42;
+padding-left: 1em;
+padding-top: 1em;
+
+}
+.describeservice{
+    padding-top: 2em;
+    padding-right: 3em !important;
+    margin-top: -8.9em;
+    max-width: 400px;
+    margin-left: 1em;
+    position:relative;
+    z-index: 10000;
+    color: #FFFFFF;
+    /* padding-bottom: 1.3em; */
+}
+.describeservice h2{
+    font-family: 'Clash Grotesk', sans-serif;
+    font-size: 1.7em;
+}
+.describeservice p{
+    font-family: 'Archivo', sans-serif;
+    font-weight: 400 !important;
+    font-size: 1.2em;
+}
+
+@media (min-width: 960px){
+    /* Navbar styling begins */
+    .guarantee{
+      margin-left: auto !important;
+      margin-right: auto !important;
+      padding-left: 18em;
+      padding-right: 18em;
+    }
+
+    .describeservice br{
+        display: none;
+    }
+
+    .describeservice{
+     text-align: left;
+     max-width: 900px;
+    padding-left: 15em;
+    line-height: 100%;
+    margin-top: -13em;
+          }
+          
+    }  

@@ -87,7 +87,7 @@
               </svg>
                
             </a>
-            <ul class="dropdown-menu" aria-labelledby="navDropdown">
+            <ul class="dropdown-menu" id="nav-menu" aria-labelledby="navDropdown">
               <li><a class="dropdown-item" href="web.html">Web & Mobile App Developement</a></li>
               <li><hr class="dropdown-divider"></li>
               <li><a class="dropdown-item" href="data-dev.html">Database Developement & Analysis</a></li>
@@ -121,12 +121,12 @@
               
             </a>
 
-            <ul class="dropdown-menu" aria-labelledby="barDropdown">
+            <ul class="dropdown-menu"  id="bar-menu" aria-labelledby="barDropdown">
               <li><a class="dropdown-item" href="crm.html">CRM128
               <li><hr class="dropdown-divider"></li>
               <li><a class="dropdown-item" href="#">PMP128</a></li>
                          </ul>
-              <li  style=" margin-top: -2em;"class="nav-item">
+              <li  style=" margin-top: -2em;"class="nav-contact" id="navContact"> 
               <a  style="font-family: 'Archivo', sans-serif; color: #091E42;" class="nav-link" href="contact.html">Contact Us</a>
               </li>
               
@@ -144,7 +144,6 @@
     </div>
   </nav>
 
-
  
 
   <div>
@@ -157,7 +156,7 @@
    <p>We’d love to hear from you. Please fill out this form.</p>
 </div>
 
-<form>
+<form class="contact-form-mobile">
     <label for="name"> First Name</label>
     <input id="name" placeholder="First name" type="text" name="'name"></input>
     
@@ -180,66 +179,142 @@
 
 
           </form>
-          <div class="qualify" style="margin-top: 5em;">
-          
+
+          <form class="contact-form-desktop">
+           
+            <label style="margin-top: -3em;" for="name"> First Name</label>
+            <input id="name" placeholder="First name" type="text" name="'name"></input>
             
-  <input id="policy" type="checkbox" >
-  <label for="policy" >You agree to our friendly policy</label>
-          </div>
+            <label style="margin-top: -13.7em; margin-left: 25em; width: 15em;" for="lastname"> Last name</label>
+             <input style="" id="lastname" placeholder="Last name" type="text" name="lastname">
+          
+             <label style="margin-top: -6.4em; margin-left: -51.9em;" for="email">
+              Email </label>
+              <input type="email" id="email" placeholder="you@company.com">
+        
+            <label style="margin-top: -11.8em; margin-left: -14.7em;" for="tel">
+              Phone number </label>
+              <input type="tel"  placeholder="+1(555) 000-0000" id="tel">
+        
+        
+                <label  style="margin-top: -10em; margin-bottom: 3em;" for="msg">
+                  Message </label>
+        
+                  <textarea style="margin-left: -40em; width: 49.3em;  ;"></textarea>
 
-
-
-
- 
-  <div>
-    <button class="consult" style="margin-left: 1em !important;"> Send Message</button>
-  </div>
-<footer style="margin-left: -1em; margin-top: 5em !important; " >
-  <div  class="footer-container">
-   <h1>Ready to do business with us?</h1> <br>
-   <p style="margin-top: -1.8em;";>With the best of the best</p> <br>
-   <p style="margin-top: -1.8em;">Email</p>
-  <hr>
-  <button class="touch">GET IN TOUCH</button>
-  <div class="grid">
-    <div class="office">
-      <h4>Office Address</h4>
-      <p>31 Unity Road, Ikeja Lagos State</p>
-      <p>Email: csofficer@gn128.com</p>
-      <img  src="assets/Ellipse 4.png">
-      <img size="5" src="assets/Ellipse 4.png">
-      <img size="5px" src="assets/Ellipse 4.png">
-      <p>Social media handle</p>
-    </div>
-    <div class="privacy">
-      <p>Privacy Policy</p>
-      <p>Privacy Policy</p>
-      <p>Privacy Policy</p>
-    </div>
-
-    <div class="privacy">
-      <p>Privacy Policy</p>
-      <p>Privacy Policy</p>
-      <p>Privacy Policy</p>
-    </div>
-
-    <div class="privacy">
-      <p>Privacy Policy</p>
-      <p>Privacy Policy</p>
-      <p>Privacy Policy</p>
-    </div>
-
-    <div class="privacy">
-      <p>Privacy Policy</p>
-      <p>Privacy Policy</p>
-      <p>Privacy Policy</p>
-    </div>
-
-  </div>
-  </div>
- </footer>
- <p class="copy" style="margin-left: -2em;">© Copyright 2022, All Rights Reserved by GEN128</p>
-
+                    
+                    <input style="height: 1em; margin-left: -90em; margin-top: 1.7em;" id="policy" type="checkbox">
+                    <label style="margin-left: -50em;" for="policy">You agree to our friendly policy</label>
+                  <!-- <input  id="policy" type="checkbox" >
+                  <label for="policy" >You agree to our friendly policy</label>
+                   -->
+                   <button class="send-msg">Send Message</button>
+                  </form>
+        
+          
+                   <div style="padding-top: 8em;"> 
+                  <footer  class="mobile">
+                    <div class="footer-container">
+                     <h1>Ready to do business with us?</h1> <br>
+                     <p style="margin-top: -1.8em;";>With the best of the best</p> <br>
+                     <p style="margin-top: -1.8em;">Email</p>
+                    <hr>
+                    <button class="touch">GET IN TOUCH</button>
+                    <div class="grid">
+                      <div class="office">
+                        <h4>Office Address</h4>
+                        <p>31 Unity Road, Ikeja Lagos State</p>
+                        <p>Email: csofficer@gn128.com</p>
+                        <img  src="assets/Ellipse 4.png">
+                        <img size="5" src="assets/Ellipse 4.png">
+                        <img size="5px" src="assets/Ellipse 4.png">
+                        <p>Social media handle</p>
+                      </div>
+                      <div class="privacy">
+                        <p>Privacy Policy</p>
+                        <p>Privacy Policy</p>
+                        <p>Privacy Policy</p>
+                      </div>
+                  
+                      <div class="privacy">
+                        <p>Privacy Policy</p>
+                        <p>Privacy Policy</p>
+                        <p>Privacy Policy</p>
+                      </div>
+                  
+                      <div class="privacy">
+                        <p>Privacy Policy</p>
+                        <p>Privacy Policy</p>
+                        <p>Privacy Policy</p>
+                      </div>
+                  
+                      <div class="privacy">
+                        <p>Privacy Policy</p>
+                        <p>Privacy Policy</p>
+                        <p>Privacy Policy</p>
+                      </div>
+                  
+                    </div>
+                    </div>
+                   </footer>
+                   </div>
+                  
+                   <footer class="desktop">
+                  
+                    <div class="footer-container">
+                  <img src="assets/Gen128-logo.png" width="145em" height="35em">
+                  <p style="padding-top: 1em;">Design amazing digital experiences <br> that create more happy in the world.</p>
+                  <div class="">
+                    <h4>Office Address</h4>
+                    <p>31 Unity Road, Ikeja Lagos State</p>
+                    <p style="margin-top: -1em;">Email: csofficer@gn128.com</p>
+                   </div>
+                    </div>
+                  
+                    <div class="footer-container">
+                  <h6>Company</h6>
+                  <h5>About Us</h5>
+                  <h5>Testimonies</h5>
+                  <h5>Partnership</h5>
+                  <h5>Career</h5>
+                    </div>
+                  
+                    <div class="footer-container">
+                      <h6>Services</h6>
+                      <h5>Web & Mobile App</h5>
+                      <h5>Database Developement</h5>
+                      <h5>Cloud Service</h5>
+                      <h5>Database Administration</h5>
+                      <h5>Network Design</h5>
+                      <h5>Leads Generation</h5>
+                      <h5>Back Office Support</h5>
+                      <h5>Marketing</h5>
+                        </div>
+                  
+                        <div class="footer-container">
+                          <h6>Products</h6>
+                          <h5>CRM128</h5>
+                          <h5>PMP128</h5>
+                            </div>
+                       
+                    <div class="footer-container">
+                     <h1>Ready to do business with us?</h1> <br>
+                     <p style="margin-top: -1.8em;";>With the best of the best</p> <br>
+                     <p style="margin-top: -1.8em;">Email</p>
+                    <hr>
+                    <button class="touch">GET IN TOUCH</button>
+                     </div>
+                    
+                   </footer>
+                   <div class="desktop-copy">
+                   <p>© Copyright 2022, All Rights Reserved by GEN128</p>
+                  
+                   <div class="social-media" style="padding-right: 3em;">
+                   <img  src="assets/Ln.png" width="18em" height="18em">
+                   <img src="assets/fb.png" width="18em" height="18em">
+                   </div>
+                   </div>
+                  
  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
     integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
     crossorigin="anonymous"></script>
@@ -264,7 +339,7 @@ setInterval(() => {
       $(this).find(".chevup").hide();
       $(this).find(".chevdown").show();
     }).on("hide.bs.dropdown", function() {
-      $(this).find(".chedown").hide();
+      $(this).find(".chevdown").hide();
       $(this).find(".chevup").show();
     });
   

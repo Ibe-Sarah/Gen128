@@ -56,10 +56,10 @@
                 <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 15.75l7.5-7.5 7.5 7.5" />
               </svg>
 
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="chevdown" >
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"  style="display: none;" class="chevdown" >
                 <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
               </svg>
-              
+             
               
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -74,7 +74,7 @@
               <li><a class="dropdown-item" href="#">Insight</a></li>
               </ul>
 
-            <a style="" class="nav-link dropdown-toggle" href="#" id="navDropdown" id="dropdown2" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <a style=" " class="nav-link dropdown-toggle" href="services.html" id="navDropdown" id="dropdown2" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               Services  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" class="chevup2" stroke="currentColor" >
                 <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 15.75l7.5-7.5 7.5 7.5" />
               </svg>
@@ -84,7 +84,7 @@
               </svg>
                
             </a>
-            <ul class="dropdown-menu" aria-labelledby="navDropdown">
+            <ul class="dropdown-menu" id="nav-menu" aria-labelledby="navDropdown">
               <li><a class="dropdown-item" href="web.html">Web & Mobile App Developement</a></li>
               <li><hr class="dropdown-divider"></li>
               <li><a class="dropdown-item" href="data-dev.html">Database Developement & Analysis</a></li>
@@ -118,12 +118,12 @@
               
             </a>
 
-            <ul class="dropdown-menu" aria-labelledby="barDropdown">
+            <ul class="dropdown-menu"  id="bar-menu" aria-labelledby="barDropdown">
               <li><a class="dropdown-item" href="crm.html">CRM128
               <li><hr class="dropdown-divider"></li>
               <li><a class="dropdown-item" href="#">PMP128</a></li>
                          </ul>
-              <li  style=" margin-top: -2em;"class="nav-item">
+              <li  style=" margin-top: -2em;"class="nav-contact" id="navContact"> 
               <a  style="font-family: 'Archivo', sans-serif; color: #091E42;" class="nav-link" href="contact.html">Contact Us</a>
               </li>
               
@@ -142,6 +142,7 @@
   </nav>
 
 
+
  
 
   <div>
@@ -155,21 +156,50 @@
   </div>
   
 <section>
-<div style="margin-top: 2em; background-color: #F6F6F6; margin-left: 0.4em;" >
+<div class="mobile-dashboard" style="margin-top: 2em; background-color: #F6F6F6; margin-left: 0.4em;" >
   
    <img style="width: 26em; height: 15em;" src="assets/dashboard.png">
 </div>
 
+<div class="desktop-dashboard" style="margin-top: 2em; background-color: #F6F6F6; " >
+  
+  <img style="width: 26em; height: 19em;" src="assets/crm-desktop.png">
+</div>
+
+
 <div class="leads">
     <p>Collect more leads, manage your projects and staff, keep records of your finances, all in one <br> place with CRM128</p>
 </div>
+
+<div class="Strength">
+  
+  <div class="numbers">
+    <!-- <h3>Our strength is 
+    expressed in numbers<br></h3> -->
+    <span class='results' >Collect more leads, manage your projects and staff, keep records of your finances, all in one place with CRM128 </span>
+    </div>
+
+<div class="experience">
+  <div>
+    <h1>Learn more</h1> <p style="text-align: center
+    ; line-height: 90%;"></p> 
+  </div>
+
+  <div>
+    <!-- <h1>5M+</h1> <p style="text-align: center
+    ; ">Global Users</p> -->
+  </div>
+</div>
+
+</div>
+
 
 <div class="crmfeat">
     <h4>Features</h4>
     <p>CRM128 is an ideal solution for companies looking to grow. Our flexible deployment options make implementation a breeze, allowing you to easily manage your accounting, projects, inventory, and other processes in no time.</p>
 </div>
 
-
+<div class="desktop-crm-grid">
 <div class="crm-grid">
   <img src="assets/pm.png">
 
@@ -225,12 +255,14 @@
   </div>
 </div>
 
-<div>
+
+</div>
+<div class="crm-consult">
   <button class="consult">Learn more</button>
 </div>
 
 
-<footer>
+<footer class="mobile">
   <div class="footer-container">
    <h1>Ready to do business with us?</h1> <br>
    <p style="margin-top: -1.8em;";>With the best of the best</p> <br>
@@ -275,6 +307,63 @@
   </div>
  </footer>
  <p class="copy">© Copyright 2022, All Rights Reserved by GEN128</p>
+
+
+ <footer class="desktop">
+
+  <div class="footer-container">
+<img src="assets/Gen128-logo.png" width="145em" height="35em">
+<p style="padding-top: 1em;">Design amazing digital experiences <br> that create more happy in the world.</p>
+<div class="">
+  <h4>Office Address</h4>
+  <p>31 Unity Road, Ikeja Lagos State</p>
+  <p style="margin-top: -1em;">Email: csofficer@gn128.com</p>
+ </div>
+  </div>
+
+  <div class="footer-container">
+<h6>Company</h6>
+<h5>About Us</h5>
+<h5>Testimonies</h5>
+<h5>Partnership</h5>
+<h5>Career</h5>
+  </div>
+
+  <div class="footer-container">
+    <h6>Services</h6>
+    <h5>Web & Mobile App</h5>
+    <h5>Database Developement</h5>
+    <h5>Cloud Service</h5>
+    <h5>Database Administration</h5>
+    <h5>Network Design</h5>
+    <h5>Leads Generation</h5>
+    <h5>Back Office Support</h5>
+    <h5>Marketing</h5>
+      </div>
+
+      <div class="footer-container">
+        <h6>Products</h6>
+        <h5>CRM128</h5>
+        <h5>PMP128</h5>
+          </div>
+     
+  <div class="footer-container">
+   <h1>Ready to do business with us?</h1> <br>
+   <p style="margin-top: -1.8em;";>With the best of the best</p> <br>
+   <p style="margin-top: -1.8em;">Email</p>
+  <hr>
+  <button class="touch">GET IN TOUCH</button>
+   </div>
+  
+ </footer>
+ <div class="desktop-copy">
+ <p>© Copyright 2022, All Rights Reserved by GEN128</p>
+
+ <div class="social-media" style="padding-right: 3em;">
+ <img  src="assets/Ln.png" width="18em" height="18em">
+ <img src="assets/fb.png" width="18em" height="18em">
+ </div>
+ </div>
 
 
 

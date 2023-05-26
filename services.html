@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <link href="https://api.fontshare.com/v2/css?f[]=clash-grotesk@600,500&display=swap" rel="stylesheet">
+
+  <link href="https://api.fontshare.com/v2/css?f[]=clash-grotesk@600,500&f[]=archivo@300&display=swap" rel="stylesheet">
+
+ 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/font-awesome.min.css">
+
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="web.css">
+  <link rel="stylesheet" href="services.css">
+  <link rel="stylesheet" href="who-we-are.css">
+
+  <title>Document</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <img style="width: 10em; " src="assets/Frame 1 1.png"> 
+      <div></div>
+      <div></div>
+      <button onclick = "window.location.href='quote.html';" class="Pricing">Get Pricing</button> 
+
+      <button class="navbar-toggler collapsed  border-0" type="button" data-bs-toggle="collapse" data-target="#collapsingNavbar" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" class="svg" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 9h16.5m-16.5 6.75h16.5" />
+</svg>
+
+<svg xmlns="http://www.w3.org/2000/svg" fill="none"  class="close-icon" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+</svg>
+
+      </button>
+      
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+          <!-- <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li> -->
+          <!-- <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li> -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown"  role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Company <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" class="chevup" stroke="currentColor" class="w-6 h-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 15.75l7.5-7.5 7.5 7.5" />
+              </svg>
+
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="chevdown" >
+                <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+              </svg>
+              
+              
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="who-we-are.html">About Us</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Testimonies</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Partnership</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Career</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Insight</a></li>
+              </ul>
+
+            <a style="" class="nav-link dropdown-toggle" href="services.html" id="navDropdown" id="dropdown2" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Services  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" class="chevup2" stroke="currentColor" >
+                <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 15.75l7.5-7.5 7.5 7.5" />
+              </svg>
+              
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="chevdown2" >
+                <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+              </svg>
+               
+            </a>
+            <ul class="dropdown-menu" id="nav-menu" aria-labelledby="navDropdown">
+              <li><a class="dropdown-item" href="web.html">Web & Mobile App Developement</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="data-dev.html">Database Developement & Analysis</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="cloud.html">Cloud Services</a></li>
+              <li><hr class="dropdown-divider"></li>
+
+              <li><a class="dropdown-item" href="data-admin.html">Database Administration</a></li>
+              <li><hr class="dropdown-divider"></li>
+
+              <li><a class="dropdown-item" href="network.html">Network Design & Implementation</a></li>
+              <li><hr class="dropdown-divider"></li>
+
+              <li><a class="dropdown-item" href="lead.html">Leads Generation</a></li>
+              <li><hr class="dropdown-divider"></li>
+
+              <li><a class="dropdown-item" href="office.html">Back Office Support</a></li>
+              <li><hr class="dropdown-divider"></li>
+
+              <li><a class="dropdown-item" href="market.html">Marketing</a></li>
+            </ul>
+
+            <a   style=""class="nav-link dropdown-toggle" href="#" id="barDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Products   <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" class="chevup3" stroke="currentColor" class="w-6 h-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 15.75l7.5-7.5 7.5 7.5" />
+              </svg>
+
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="chevdown3" >
+                <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+              </svg>
+              
+            </a>
+
+            <ul class="dropdown-menu"  id="bar-menu" aria-labelledby="barDropdown">
+              <li><a class="dropdown-item" href="crm.html">CRM128
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">PMP128</a></li>
+                         </ul>
+              <li  style=" margin-top: -2em;"class="nav-contact" id="navContact"> 
+              <a  style="font-family: 'Archivo', sans-serif; color: #091E42;" class="nav-link" href="contact.html">Contact Us</a>
+              </li>
+              
+          </li>
+         
+          <!-- <li class="nav-item">
+            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>  -->
+      </div>
+    </div>
+  </nav>
+
+
+  <div>
+    <img class='closeup' src="assets/service.png"lt="">
+  </div>
+  <div style="" class="describeservice">
+    <h2>Services you can trust<br></h2>
+     <p> Reach your business goals with the entire range of  Services we provide.</p>
+       
+  </div>
+  
+<div style="margin-top: -1.5em !important; padding-left: 1em; padding-right: 10em !important;"   class="accordion-container">
+    <p class="faq"></p>
+    <div style="border-radius: 10px !important;" class="accordion-item">
+      <div class="accordion-header">
+        <h5>Leads Generation</h5>
+        <i class="accordion-icon-down"></i>
+      </div>
+      <div class="accordion-content">
+        <p>We operate an effective lead generation approach for both B2C & B2B businesses. For us, representing your brand, in the utmost professional manner, is of paramount importance. We have a team of seasoned lead generation experts that have worked with various businesses to double the number of qualified appointment bookings and clients. We are able to bring clients that have business interest for your products and services.</p>
+        <a href="" style="background-color: #0047B3; margin-left:6.5em; margin-right: auto; color: #FFFFFF;" class="btn btn-primary">Learn more</a>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <div class="accordion-header">
+        <h5>Back Office Support</h5>
+        <i class="accordion-icon-down"></i>
+      </div>
+      <div class="accordion-content">
+        <p>Let us handle all your administrative tasks like Email & calendar management inbound & outbound phone calls, book keeping and more!</p>
+        <a href="" style="background-color: #0047B3;margin-left:6.5em; color: #FFFFFF; " class="btn btn-primary">Learn more</a>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <div class="accordion-header">
+        <h5>Marketing</h5>
+        <i class="accordion-icon-down"></i>
+      </div>
+      <div class="accordion-content">
+        <p>We can help you increase your revenues with our seasoned marketing professionals while you focus on delivering value to them.</p>
+        <a href="" style="background-color: #0047B3; margin-left:6.5em; color: #FFFFFF;" class="btn btn-primary">Learn more</a>
+      </div>
+    </div>
+  
+    <div class="accordion-item">
+      <div class="accordion-header">
+        <h5>Web & Mobile App Developement </h5>
+        <i class="accordion-icon-down"></i>
+      </div>
+      <div class="accordion-content">
+        <p>We build creative websites and applications that drives productivity, improves conversion, increases revenue and deliver more meaningful digital experiences.</p>
+        <a href="" style="background-color: #0047B3; margin-left:6.5em; color: #FFFFFF;" class="btn btn-primary">Learn more</a>
+      </div>
+    </div>
+  
+    <div class="accordion-item">
+      <div class="accordion-header">
+        <h5>Database Developement & Analysis</h5>
+        <i class="accordion-icon-down"></i>
+      </div>
+      <div class="accordion-content">
+        <p>We are very aware of the importance of your data to the seamless running of your day-to-day business processes so we provide safe solutions for your data.</p>
+        <a href="" style="background-color: #0047B3; margin-left:6.5em; color: #FFFFFF;" class="btn btn-primary">Learn more</a>
+      </div>
+    </div>
+  
+    <div class="accordion-item">
+      <div class="accordion-header">
+        <h5>Cloud Services</h5>
+        <i class="accordion-icon-down"></i>
+      </div>
+      <div class="accordion-content">
+        <p>We are ready to provide accurate calculations for your cloud app development initiative using a state of the art Technology so that you could plan your budget with confidence.</p>
+        <a href="" style="background-color: #0047B3; margin-left:6.5em; color: #FFFFFF;" class="btn btn-primary">Learn more</a>
+      </div>
+    </div>
+  
+   <div class="accordion-item">
+      <div class="accordion-header">
+        <h5>Network Design & Implementation</h5>
+        <i class="accordion-icon-down"></i>
+      </div>
+      <div class="accordion-content">
+        <p>From efficiently architecting & designing your office systems and networks, to our comprehensive Infrastructure support packages, we can take care of all your IT needs        <a href="" style="background-color: #0047B3; margin-left:6.5em; color: #FFFFFF;" class="btn btn-primary">Learn more</a>
+      </div>
+    </div>
+  
+  </div>
+
+  <div style="margin-top: 10em;" id="questions" class="accordion-container">
+    <p class="faq"></p>
+    <div class="accordion-item">
+      <div class="accordion-header">
+        <h5 style="color: #0047B3;">Web & Mobile App Developement</h5>
+        <i class="accordion-icon-down"></i>
+      </div>
+      <div class="accordion-content">
+        <p>We build creative websites and applications that drives productivity, improves conversion, increases revenue and deliver more meaningful digital experiences.</p>
+        <a href="" style="background-color: #0047B3; margin-left:0.1em; color: #FFFFFF;" class="btn btn-primary">Learn more</a>
+
+      </div>
+    </div>
+    <div class="accordion-item">
+      <div class="accordion-header">
+        <h5 style="color: #0047B3;">Database Developement and Analysis</h5>
+        <i class="accordion-icon-down"></i>
+      </div>
+      <div class="accordion-content">
+        <p>We are very aware of the importance of your data to the seamless running of your day-to-day business processes so we provide safe solutions for your data.</p>
+        <a href="" style="background-color: #0047B3; margin-left:0.1em; color: #FFFFFF;" class="btn btn-primary">Learn more</a>
+
+    </div>
+    </div>
+    <div class="accordion-item">
+      <div class="accordion-header">
+        <h5 style="color: #0047B3;">Cloud Services</h5>
+        <i class="accordion-icon-down"></i>
+      </div>
+      <div class="accordion-content">
+        <p>We are ready to provide accurate calculations for your cloud app development initiative using a state of the art Technology so that you could plan your budget with confidence.</p>
+
+        <a href="" style="background-color: #0047B3; margin-left:0.1em; color: #FFFFFF;" class="btn btn-primary">Learn more</a>
+
+      </div>
+    </div>
+  
+    <div class="accordion-item">
+      <div class="accordion-header">
+        <h5 style="color: #0047B3;">Database Administration  </h5>
+        <i class="accordion-icon-down"></i>
+      </div>
+      <div class="accordion-content">
+        <p>We are a dedicated team of credentialed database experts, versed in a wide range of technologies including MS SQL Server, MySQL, Oracle, platforms and integrations.</p>
+        <a href="" style="background-color: #0047B3; margin-left:0.1em; color: #FFFFFF;" class="btn btn-primary">Learn more</a>
+
+      </div>
+    </div>
+  
+    <div class="accordion-item">
+      <div class="accordion-header">
+        <h5 style="color: #0047B3;">Network Design & Implementation</h5>
+        <i class="accordion-icon-down"></i>
+      </div>
+      <div class="accordion-content">
+        <p>From efficiently architecting & designing your office systems and networks, to our comprehensive Infrastructure support packages, we can take care of all your IT needs</p>
+        <a href="" style="background-color: #0047B3; margin-left:0.1em; color: #FFFFFF;" class="btn btn-primary">Learn more</a>
+
+      </div>
+    </div>
+  
+    <div class="accordion-item">
+      <div class="accordion-header">
+        <h5 style="color: #0047B3;">Leads Generation</h5>
+        <i class="accordion-icon-down"></i>
+      </div>
+      <div class="accordion-content">
+        <p>We operate an effective lead generation approach for both B2C & B2B businesses. For us, representing your brand, in the utmost professional manner, is of paramount importance. We have a team of seasoned lead generation experts that have worked with various businesses to double the number of qualified appointment bookings and clients. We are able to bring clients that have business interest for your products and services.</p>
+        <a href="" style="background-color: #0047B3; margin-left:0.1em; color: #FFFFFF;" class="btn btn-primary">Learn more</a>
+
+      </div>
+    </div>
+  
+   <div class="accordion-item">
+      <div class="accordion-header">
+        <h5 style="color: #0047B3;">Back Office Support</h5>
+        <i class="accordion-icon-down"></i>
+      </div>
+      <div class="accordion-content">
+        <p>Let us handle all your administrative tasks like Email & calendar management inbound & outbound phone calls, book keeping and more!</p>
+        <a href="" style="background-color: #0047B3; margin-left:0.1em; color: #FFFFFF;" class="btn btn-primary">Learn more</a>
+
+      </div>
+    </div>
+  
+    <div class="accordion-item">
+      <div class="accordion-header">
+        <h5 style="color: #0047B3;">Marketing</h5>
+        <i class="accordion-icon-down"></i>
+      </div>
+      <div class="accordion-content">
+        <p>We can help you increase your revenues with our seasoned marketing professionals while you focus on delivering value to them.</p>
+        <a href="" style="background-color: #0047B3; margin-left:0.1em; color: #FFFFFF;" class="btn btn-primary">Learn more</a>
+
+      </div>
+    </div>
+  
+    
+  </div>
+  
+
+
+
+
+
+
+
+
+
+
+  
+  <div class="guarantee-div" style="background-color: #EFF8ED;"> 
+<div class="guarantee">
+<h4>GEN128’s  Guarantees</h4>
+<h5>High-quality practices</h5>
+
+<h6>In order to apply the most cutting-edge approaches and provide high-quality Software Development Services, our experts are regularly certified by the most trusted and progressive entities.</h6>
+</div>
+
+<div class="guarantee">
+
+    <h5>Customer trust</h5>
+    
+    <h6>Thanks to our high professional standards, effective development workflows, and focus on quality, we have earned a positive reputation in the market, reflected in our rankings – for example, 4.9/5 on Clutch.</h6>
+    </div>
+
+    <div class="guarantee">
+
+        <h5>Strategic partnerships</h5>
+        
+        <h6>Andersen's recurring and referring customers prove our reliability and dedication. Once your IT project is completed, we will be happy to work with you to implement new ones, provide ongoing support and maintenance, or upgrade your existing software.</h6>
+        </div>
+
+        <div style="padding-bottom: 4em;" class="guarantee">
+
+            <h5>Individual approach</h5>
+            
+            <h6>Andersen is a supplier of Software Development Services employing and allocating IT specialists with both the hard and soft skills required to seamlessly integrate with your in-house team.</h6>
+            </div>
+        
+
+</div>
+
+
+
+
+<footer class="mobile">
+  <div class="footer-container">
+   <h1>Ready to do business with us?</h1> <br>
+   <p style="margin-top: -1.8em;";>With the best of the best</p> <br>
+   <p style="margin-top: -1.8em;">Email</p>
+  <hr>
+  <button class="touch">GET IN TOUCH</button>
+  <div class="grid">
+    <div class="office">
+      <h4>Office Address</h4>
+      <p>31 Unity Road, Ikeja Lagos State</p>
+      <p>Email: csofficer@gn128.com</p>
+      <img  src="assets/Ellipse 4.png">
+      <img size="5" src="assets/Ellipse 4.png">
+      <img size="5px" src="assets/Ellipse 4.png">
+      <p>Social media handle</p>
+    </div>
+    <div class="privacy">
+      <p>Privacy Policy</p>
+      <p>Privacy Policy</p>
+      <p>Privacy Policy</p>
+    </div>
+
+    <div class="privacy">
+      <p>Privacy Policy</p>
+      <p>Privacy Policy</p>
+      <p>Privacy Policy</p>
+    </div>
+
+    <div class="privacy">
+      <p>Privacy Policy</p>
+      <p>Privacy Policy</p>
+      <p>Privacy Policy</p>
+    </div>
+
+    <div class="privacy">
+      <p>Privacy Policy</p>
+      <p>Privacy Policy</p>
+      <p>Privacy Policy</p>
+    </div>
+
+  </div>
+  </div>
+ </footer>
+ <p class="copy">© Copyright 2022, All Rights Reserved by GEN128</p>
+
+
+ <footer style="margin-top: -3em;" class="desktop">
+
+  <div class="footer-container">
+<img src="assets/Gen128-logo.png" width="145em" height="35em">
+<p style="padding-top: 1em;">Design amazing digital experiences <br> that create more happy in the world.</p>
+<div class="">
+  <h4>Office Address</h4>
+  <p>31 Unity Road, Ikeja Lagos State</p>
+  <p style="margin-top: -1em;">Email: csofficer@gn128.com</p>
+ </div>
+  </div>
+
+  <div class="footer-container">
+<h6>Company</h6>
+<h5>About Us</h5>
+<h5>Testimonies</h5>
+<h5>Partnership</h5>
+<h5>Career</h5>
+  </div>
+
+  <div class="footer-container">
+    <h6>Services</h6>
+    <h5>Web & Mobile App</h5>
+    <h5>Database Developement</h5>
+    <h5>Cloud Service</h5>
+    <h5>Database Administration</h5>
+    <h5>Network Design</h5>
+    <h5>Leads Generation</h5>
+    <h5>Back Office Support</h5>
+    <h5>Marketing</h5>
+      </div>
+
+      <div class="footer-container">
+        <h6>Products</h6>
+        <h5>CRM128</h5>
+        <h5>PMP128</h5>
+          </div>
+     
+  <div class="footer-container">
+   <h1>Ready to do business with us?</h1> <br>
+   <p style="margin-top: -1.8em;";>With the best of the best</p> <br>
+   <p style="margin-top: -1.8em;">Email</p>
+  <hr>
+  <button class="touch">GET IN TOUCH</button>
+   </div>
+  
+ </footer>
+ <div class="desktop-copy">
+ <p>© Copyright 2022, All Rights Reserved by GEN128</p>
+
+ <div class="social-media" style="padding-right: 3em;">
+ <img  src="assets/Ln.png" width="18em" height="18em">
+ <img src="assets/fb.png" width="18em" height="18em">
+ </div>
+ </div>
+
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+    integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+    crossorigin="anonymous"></script>
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+
+<script>
+ const scrollContainer = document.querySelector(".scroll-container");
+let scrollPos = 0;
+
+setInterval(() => {
+  scrollPos += 320; // Adjust the value to fit the width of your items plus margin
+  scrollContainer.scrollTo({
+    left: scrollPos,
+    behavior: "smooth"
+  });
+}, 2000); // Adjust the value to change the interval between scrolls
+// Change this value to adjust the interval between scrolls
+</script>
+
+
+<!-- s -->
+<script>
+$(document).ready(function() {
+  // Toggle chevron icons on dropdown show/hide
+  $(".nav-link.dropdown-toggle").on("show.bs.dropdown", function() {
+    $(this).find(".chevup").hide();
+    $(this).find(".chevdown").show();
+  }).on("hide.bs.dropdown", function() {
+    $(this).find(".chevdown").hide();
+    $(this).find(".chevup").show();
+  });
+
+  $(".nav-link.dropdown-toggle").on("show.bs.dropdown", function() {
+    $(this).find(".chevup2").hide();
+    $(this).find(".chevdown2").show();
+  }).on("hide.bs.dropdown", function() {
+    $(this).find(".chevdown2").hide();
+    $(this).find(".chevup2").show();
+  });
+
+  $(".nav-link.dropdown-toggle").on("show.bs.dropdown", function() {
+    $(this).find(".chevup3").hide();
+    $(this).find(".chevdown3").show();
+  }).on("hide.bs.dropdown", function() {
+    $(this).find(".chevdown3").hide();
+    $(this).find(".chevup3").show();
+  });
+});
+
+</script>
+
+<script>
+    var accordionHeaders = document.querySelectorAll('.accordion-header');
+    var askedLength= document.getElementById("faq");
+    
+    accordionHeaders.forEach(function(header) {
+      header.addEventListener('click', function() {
+        var accordionContent = this.nextElementSibling;
+        if (accordionContent.style.display === 'block') {
+          accordionContent.style.display = 'none';
+          this.lastElementChild.classList.remove('accordion-icon-down');
+          this.lastElementChild.classList.add('accordion-icon-up');
+    
+        } else {
+          accordionContent.style.display = 'block';
+          this.lastElementChild.classList.remove('accordion-icon-up');
+          this.lastElementChild.classList.add('accordion-icon-down');
+          askedLength.style.height= '85em';
+    
+        }
+        
+      });
+      // const accordionItems = accordion.querySelectorAll('.accordion-item');
+      // const allClosed = Array.from(accordionItems).every(item => !item.classList.contains('active'));
+    
+      // if (allClosed) {
+      //   const totalHeight = Array.from(accordionItems).reduce((acc, item) => acc + item.clientHeight, 0);
+      //   askedLength.style.height = `${totalHeight}px`;
+      // } else {
+      //   askedLength.style.height = 'auto';
+      // }
+    
+    });
+    
+    </script>
+    
+  
+
+</body>
+
+</html>

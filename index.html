@@ -56,10 +56,10 @@
                 <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 15.75l7.5-7.5 7.5 7.5" />
               </svg>
 
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="chevdown" >
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"  style="display: none;" class="chevdown" >
                 <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
               </svg>
-              
+             
               
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -74,7 +74,7 @@
               <li><a class="dropdown-item" href="#">Insight</a></li>
               </ul>
 
-            <a style="" class="nav-link dropdown-toggle" href="#" id="navDropdown" id="dropdown2" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <a style=" " class="nav-link dropdown-toggle" href="services.html" id="navDropdown" id="dropdown2" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               Services  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" class="chevup2" stroke="currentColor" >
                 <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 15.75l7.5-7.5 7.5 7.5" />
               </svg>
@@ -461,7 +461,7 @@ $(document).ready(function() {
     $(this).find(".chevup").hide();
     $(this).find(".chevdown").show();
   }).on("hide.bs.dropdown", function() {
-    $(this).find(".chedown").hide();
+    $(this).find(".chevdown").hide();
     $(this).find(".chevup").show();
   });
 

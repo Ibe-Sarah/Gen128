@@ -49,7 +49,22 @@ font-size: 1.1em;
         border-radius: 25px;
         background-color: #E6F0FF;
       }
+
+      .radio-desktop{
+        display: none;
+      }
+
+      .checkbox-desktop{
+        display: none;
+      }
       
+      .duration-desktop{
+        display: none;
+      }
+
+      .users-desktop{
+        display: none;
+      }
 /* media query */
 @media (min-width: 960px){
 
@@ -70,9 +85,124 @@ font-size: 1.1em;
         background-color: #C4C4C4;
       }
       .quote-form{
-        padding-top: 4em;
+        /* padding-top: 4em; */
         background-color: #FFFFFF !important;
         border-radius: 24px;
-        width: 70%;
+        width: 60%;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 7em;
+        height: 30%;
       }
-}
+
+      form{
+        background-color: #FFFFFF;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(6, 1fr) !important; 
+      }
+
+      #name{
+        grid-column:1/4 ;
+      }
+
+      #business{
+         grid-column:1/2 ;
+         padding-right: 9em;
+          }
+    
+    .tel{
+    margin-top: -2.5em;
+    padding-left: 2em; 
+    width: 15em !important;
+      }
+
+    #tel{
+        margin-left: -13em !important;
+        /* padding-right: 4em; */
+        width:22em ;
+    }
+
+
+    #email{
+    grid-column:1/2 ;
+    }
+       
+    #website{
+            /* padding-left: 1em; */
+            margin-left: -13em;
+            width:22em ;
+    }
+    .website{
+        margin-top: -2.5em;
+        margin-left: 2em;
+    }
+
+    form input{
+        border: 1px solid #D0D5DD;
+
+    }
+    
+    .radio-mobile{
+        display: none;
+            }
+    
+    .radio-desktop{
+    display: block;
+    gap: 10px;
+    }
+
+    .industry h5{
+
+        display: inline-block;
+        padding: 0 20px;
+        height: 40px;
+        font-size: 14px;
+        line-height: 45px;
+        border-radius: 20px;
+        background-color: #E6F0FF;
+      }
+
+
+      .pre , .industry, .qualify, .duration, .users{
+        font-size: 16px;
+
+    }
+
+    .pre h4, .industry h4, .qualify h4, .duration h4, .users h4 {
+        /* padding-bottom: 0.2em; */
+        font-size: 1em;
+        }
+
+        .pre-qual-head, .intro-head{
+       font-size: 1.2em;     
+       padding-left: 7em;
+       margin-left: 2em;
+        }
+
+
+        .checkbox-mobile{
+            display: none;
+        }
+
+        .checkbox-desktop{
+            display: block;
+        }
+
+        .duration-mobile{
+            display: none;
+        }
+
+        .duration-desktop{
+            display: block;
+        }
+        
+        .users-mobile{
+            display: none;
+            
+        }
+
+        .users-desktop{
+            display: block;
+        }
+
+    }    
