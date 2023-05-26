@@ -790,7 +790,7 @@ padding-right: 4em !important;
   color: #005696 !important;
   font-size: 2em;
   line-height: 110%;
-  padding-left: 3em;
+  padding-left: 5.3em;
 }
 .hover:hover{
   pointer-events: none;
@@ -798,7 +798,7 @@ padding-right: 4em !important;
 .card-news{
   display: flex;
   width: 80%;
-  margin-left: -4em !important;
+  margin-left: -1em !important;
   
 }
 
