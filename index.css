@@ -165,7 +165,7 @@ a.dropdown-item:hover{
 
 .nav-contact{
 margin-top: 2em!important;
-margin-left: 3em;
+margin-left: 2em;
 }
 .Strength{
     display: flex;
@@ -550,7 +550,7 @@ padding-bottom: 1em;
 }
 .chevup2{
   margin-left: 0.1em !important;
-  padding: none;
+  
   
 }
 .chevup3{
@@ -559,18 +559,18 @@ padding-bottom: 1em;
 
   .Pricing{
     margin-left: 5em !important;
-    margin-top: 1em !important;
+    margin-top: 1.7em !important;
   }
 
 
   #barDropdown.nav-link.dropdown-toggle::after {
-    /* margin-left: 10.3em !important; */
+  
     width: 1px;
     margin-left: 6em !important;
   }
   
   #navDropdown.nav-link.dropdown-toggle::after {
-    /* margin-left: -3em !important; */
+  
     width: 1px;
   
   }
@@ -604,7 +604,7 @@ padding-bottom: 1em;
     justify-content: flex-end;
   }
 
-  .navbar-nav {
+  /* .navbar-nav {
     flex-direction: row;
   }
 
@@ -614,7 +614,7 @@ padding-bottom: 1em;
   }
 
   .navbar-nav .nav-link {
-    /* padding: 0.5em; */
+  
   }
 
   .navbar-nav .dropdown-menu {
@@ -627,15 +627,12 @@ padding-bottom: 1em;
     margin-left: 1em;
   }
   #navDropdown{
-    margin-left: -13.5em;
+    margin-left: -15.5em;
   }
 
   #barDropdown{
-    margin-left: -14.5em;
+    margin-left: -15.5em;
 
-  }
-  #bar-menu{
-    margin-left: 15em !important;
   }
 
   #nav-menu{
@@ -644,13 +641,49 @@ padding-bottom: 1em;
 
   .nav-contact{
      margin-top: 1em !important;
-     margin-left: 3.5em;
+     margin-left: 2em;
      width: 7em;
-     /* display: none; */
+    
+  } */
+
+
+  .nav-contact{
+   margin-top: 1.7em !important;
+    margin-left: -1em;
+  
+   
+ }
+ 
+ 
+ #bar-menu{
+  margin-left: 17em !important;
+}
+
+#nav-menu{
+  margin-left: 5em;
+}
+
+#navbarDropdown{
+  margin-top: 0.6em;
+  margin-left: 3em;
+}
+  #navDropdown{
+    margin-left: 10.5em;
+    margin-top: -2.5em;
+
   }
 
+
+  #barDropdown{
+    margin-left: 17.5em;
+    margin-top: -2.5em;
+
+  }
   #barDropdown.nav-link.dropdown-toggle{
     width: 5em;
+  }
+  #navDropdown.nav-link.dropdown-toggle{
+    width: 100px;
   }
    body{
     overflow-x: hidden;
