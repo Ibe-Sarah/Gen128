@@ -1,3 +1,95 @@
 body{
     background-color: #F6F6F6;
 }
+.desktop-spoofing{
+    display: none;
+}
+.spoof{
+    display: none;
+}
+
+.desktop-details{
+    display: none;
+}
+
+.blog-grid{
+    display: none;
+}
+@media (min-width: 960px){
+
+.mobile-spoofing{
+    display: none;
+
+}
+
+.desktop-spoofing{
+    display: block;
+}
+.spoof{
+    display: block;
+    height: 35.2em;
+    width: 100%;
+        
+    
+}
+
+.desktop-spoofing{
+    padding-left: 20.3em;
+    margin-top: -17em;
+    width: 70em !important;
+  }
+
+.desktop-spoofing h5, .desktop-spoofing li{
+    color: #FFFFFF !important;
+    font-weight: 500 !important;
+}
+
+.mobile-details{
+    display: none;
+}
+
+.desktop-details{
+    display: block;
+    
+}
+
+.desktop-details .card{
+    max-width: 800px;
+    padding: 2em;
+}
+
+.share-and-like{
+    display: flex !important;
+    justify-content: space-between !important;
+    /* width: 35em !important; */
+    margin-left: -2em;
+    cursor: pointer;
+
+    
+}
+
+.blog-grid{
+    display: flex;
+    
+}
+.blog-grid-cover{
+    width: 65%;
+    margin-top: 7em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.blog-grid img{
+    width: 16rem !important;
+  
+}  
+
+.blog-grid .list-group{
+    margin-top: -1em !important;
+    width: 23em;
+    font-size: 0.6em;
+    gap: 4em;
+    margin-bottom: 3em !important;
+  }
+ 
+}

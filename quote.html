@@ -22,7 +22,7 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <nav id="mobile-nav" class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container-fluid">
       <img style="width: 10em; " src="assets/Frame 1 1.png"> 
       <div></div>
@@ -57,10 +57,10 @@
                 <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 15.75l7.5-7.5 7.5 7.5" />
               </svg>
 
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="chevdown" >
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"  style="display: none;" class="chevdown" >
                 <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
               </svg>
-              
+             
               
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -75,7 +75,7 @@
               <li><a class="dropdown-item" href="#">Insight</a></li>
               </ul>
 
-            <a style="" class="nav-link dropdown-toggle" href="#" id="navDropdown" id="dropdown2" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <a style=" " class="nav-link dropdown-toggle" href="services.html" id="navDropdown" id="dropdown2" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               Services  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" class="chevup2" stroke="currentColor" >
                 <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 15.75l7.5-7.5 7.5 7.5" />
               </svg>
@@ -130,6 +130,128 @@
               
           </li>
          
+          <!-- <li class="nav-item">
+            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>  -->
+      </div>
+    </div>
+  </nav>
+
+
+
+  <nav id="desktop-nav" class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <img style="width: 10em; " src="assets/Frame 1 1.png"> 
+      <div></div>
+      <div></div>
+      
+
+      <button class="navbar-toggler collapsed  border-0" type="button" data-bs-toggle="collapse" data-target="#collapsingNavbar" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" class="svg" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 9h16.5m-16.5 6.75h16.5" />
+</svg>
+
+<svg xmlns="http://www.w3.org/2000/svg" fill="none"  class="close-icon" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+</svg>
+
+      </button>
+      
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+          <!-- <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li> -->
+          <!-- <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li> -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown"  role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Company <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" class="chevup" stroke="currentColor" class="w-6 h-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 15.75l7.5-7.5 7.5 7.5" />
+              </svg>
+
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"  style="display: none;" class="chevdown" >
+                <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+              </svg>
+             
+              
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="who-we-are.html">About Us</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Testimonies</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Partnership</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Career</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Insight</a></li>
+              </ul>
+
+            <a style=" " class="nav-link dropdown-toggle" href="services.html" id="navDropdown" id="dropdown2" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Services  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" class="chevup2" stroke="currentColor" >
+                <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 15.75l7.5-7.5 7.5 7.5" />
+              </svg>
+              
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="chevdown2" >
+                <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+              </svg>
+               
+            </a>
+            <ul class="dropdown-menu" id="nav-menu" aria-labelledby="navDropdown">
+              <li><a class="dropdown-item" href="web.html">Web & Mobile App Developement</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="data-dev.html">Database Developement & Analysis</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="cloud.html">Cloud Services</a></li>
+              <li><hr class="dropdown-divider"></li>
+
+              <li><a class="dropdown-item" href="data-admin.html">Database Administration</a></li>
+              <li><hr class="dropdown-divider"></li>
+
+              <li><a class="dropdown-item" href="network.html">Network Design & Implementation</a></li>
+              <li><hr class="dropdown-divider"></li>
+
+              <li><a class="dropdown-item" href="lead.html">Leads Generation</a></li>
+              <li><hr class="dropdown-divider"></li>
+
+              <li><a class="dropdown-item" href="office.html">Back Office Support</a></li>
+              <li><hr class="dropdown-divider"></li>
+
+              <li><a class="dropdown-item" href="market.html">Marketing</a></li>
+            </ul>
+
+            <a   style=""class="nav-link dropdown-toggle" href="#" id="barDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Products   <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" class="chevup3" stroke="currentColor" class="w-6 h-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 15.75l7.5-7.5 7.5 7.5" />
+              </svg>
+
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="chevdown3" >
+                <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+              </svg>
+              
+            </a>
+
+            <ul class="dropdown-menu"  id="bar-menu" aria-labelledby="barDropdown">
+              <li><a class="dropdown-item" href="crm.html">CRM128
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">PMP128</a></li>
+                         </ul>
+              <li  style=" margin-top: -2em;"class="nav-contact" id="navContact"> 
+              <a  style="font-family: 'Archivo', sans-serif; color: #091E42;" class="nav-link" href="contact.html">Contact Us</a>
+              </li>
+              
+          </li>
+          <button onclick = "window.location.href='quote.html';" class="Pricing">Get Pricing</button> 
           <!-- <li class="nav-item">
             <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
           </li>

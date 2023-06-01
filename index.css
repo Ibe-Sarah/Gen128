@@ -154,7 +154,9 @@ a.dropdown-item:hover{
 }
 #navDropdown.nav-link.dropdown-toggle::after {
   margin-left: 15.5em !important;
-
+}
+#navDropdown.nav-link.dropdown-toggle{
+  
 }
 
 #barDropdown.nav-link.dropdown-toggle::after {
@@ -492,6 +494,12 @@ padding-bottom: 1em;
   .desktop-copy{
     display: none;
   }
+
+  #desktop-nav{
+    display: none;
+  }
+
+
 @media (max-width: 414px) {
   .privacy {
  margin-top: 0.8em;
@@ -511,6 +519,18 @@ padding-bottom: 1em;
     /* @media query*/
 @media (min-width: 960px){
   /* Navbar styling begins */
+
+
+ 
+  #mobile-nav{
+    display: none;
+  }
+
+  #desktop-nav{
+    display: block;
+    width: 100vw;
+    
+  }
   .chevdown{
     display: none;
     margin-left: 0.1em !important;
@@ -530,6 +550,7 @@ padding-bottom: 1em;
 }
 .chevup2{
   margin-left: 0.1em !important;
+  padding: none;
   
 }
 .chevup3{
@@ -538,6 +559,7 @@ padding-bottom: 1em;
 
   .Pricing{
     margin-left: 5em !important;
+    margin-top: 1em !important;
   }
 
 
@@ -552,7 +574,6 @@ padding-bottom: 1em;
     width: 1px;
   
   }
-  
   .navbar {
     display: flex;
     justify-content: space-between;
@@ -606,11 +627,11 @@ padding-bottom: 1em;
     margin-left: 1em;
   }
   #navDropdown{
-    margin-left: -15.5em;
+    margin-left: -13.5em;
   }
 
   #barDropdown{
-    margin-left: -15.5em;
+    margin-left: -14.5em;
 
   }
   #bar-menu{
@@ -623,8 +644,17 @@ padding-bottom: 1em;
 
   .nav-contact{
      margin-top: 1em !important;
-     margin-left: -5em;
+     margin-left: 3.5em;
+     width: 7em;
+     /* display: none; */
   }
+
+  #barDropdown.nav-link.dropdown-toggle{
+    width: 5em;
+  }
+   body{
+    overflow-x: hidden;
+   }
 
   /* Navbar styling ends */
 
