@@ -120,7 +120,18 @@ body{
 
 }
 
+#bar-menu{
+  width: 23em;
+}
+#nav-menu{
+  width: 22em;
+}
 
+.navbar-nav .dropdown-menu{
+  width: 23em !important;
+}
+
+body{}
 
 .dropdown-menu{
   background-color: #EFF8ED;
@@ -257,6 +268,7 @@ margin-left: 2em;
   line-height: 130%;
   font-family: 'Clash Grotesk', sans-serif;
   font-weight: 600;
+  padding-top: 2em;
 }
 .critics{
     color: #091E42;
@@ -337,7 +349,17 @@ max-width: 400px;
     font-family: 'Archivo', sans-serif;
     font-size: 0.8em;
     font-weight: 600;
+
   }
+
+  .list-group-item{
+    font-family: 'Archivo', sans-serif;
+    font-size: 0.8em;
+    font-weight: 600;
+
+  }
+
+
   .btn-primary{
     color: #0047B3;
     background-color: #FDFDFD;
@@ -649,20 +671,31 @@ padding-bottom: 1em;
 
   .nav-contact{
    margin-top: 1.7em !important;
-    margin-left: -1em;
+    margin-left: 2em;
   
    
  }
  
  
  #bar-menu{
-  margin-left: 17em !important;
+  margin-left: 22em !important;
 }
 
 #nav-menu{
-  margin-left: 5em;
+  margin-left: 13em !important;
 }
 
+
+
+
+
+
+
+
+
+.dropdown-menu[data-bs-popper] {
+  margin-left: 7em !important;
+}
 #navbarDropdown{
   margin-top: 0.6em;
   margin-left: 3em;
@@ -683,6 +716,10 @@ padding-bottom: 1em;
     width: 5em;
   }
   #navDropdown.nav-link.dropdown-toggle{
+    width: 100px;
+  }
+
+  #navbarDropdown.nav-link.dropdown-toggle{
     width: 100px;
   }
    body{
@@ -754,6 +791,7 @@ padding-bottom: 1em;
   margin-top: 2em;
   width: 100% !important;
   max-width: 800px;
+  padding-bottom: 3em;
 }
 #card-values h2{
   text-align: center;
@@ -770,6 +808,9 @@ padding-bottom: 1em;
   width: 17rem !important;
   height: 19rem;
   margin-right: -4em !important;
+  padding-top: 0.5px !important;
+  padding-left: 0.3px !important;
+  padding-right: 0.3px !important;
   
 
 }
@@ -781,6 +822,7 @@ padding-bottom: 1em;
   font-size: 0.8em !important;
   padding-bottom: 2em;
 }
+.card-service img{}
 
 .card-service a{
   width: 8em;
@@ -868,6 +910,9 @@ padding-right: 4em !important;
 .card-news .card{
 width: 20rem !important;
 height: 27em;
+padding-top: 0.5px !important;
+padding-left: 0.5px !important;
+padding-right: 0.5px !important;
 }
 .card-news .card-title{
   font-size: 1em !important;
@@ -881,14 +926,15 @@ height: 27em;
   font-size: 0.8em !important;
 }
 .card-news ul{
-  font-size: 0.5em;
+  font-size: 0.7em;
+  /* width: 10em !important; */
   margin-top: -2em;
 }
 #info{
   margin-left: -5em;
 }
 #info ul{
-  margin-top: 7.5em;
+  margin-top: 4.5em;
   /* height: 20em !important; */
 }
 
@@ -951,6 +997,112 @@ padding-right: 7.5em;
       gap: 10px;
       padding-top: 1em;
     }
+
+
+    /* animation */
+
+/* Add custom animations to each dropdown menu */
+
+/* First dropdown menu */
+#nav-bar-menu {
+  animation: fadeInOut1 0.3s ease forwards;
+  opacity: 0;
+  transform-origin: top;
+  /* display: none; */
+}
+
+@keyframes fadeInOut1 {
+  0% {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.dropdown-1:hover #nav-bar-menu {
+  display: block;
+}
+
+/* Fade out animation for closing the menu */
+.dropdown #nav-bar-menu{
+  transition: opacity 0.3s ease;
+}
+
+.dropdown-1:not(.show) #nav-bar-menu {
+  opacity: 0;
+  display: none;
+}
+
+/* Second dropdown menu */
+#nav-menu {
+  animation: fadeInOut2 0.3s ease forwards;
+  opacity: 0;
+  transform-origin: top;
+  
+}
+
+@keyframes fadeInOut2 {
+  0% {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.dropdown-2:hover #nav-menu {
+  display: block;
+}
+
+/* Fade out animation for closing the menu */
+.dropdown-2 #nav-menu {
+  transition: opacity 0.3s ease;
+}
+
+.dropdown-2:not(.show) #nav-menu {
+  opacity: 0;
+  display: none;
+}
+
+/* Third dropdown menu */
+#bar-menu {
+  animation: fadeInOut3 0.3s ease forwards;
+  opacity: 0;
+  transform-origin: top;
+
+}
+
+@keyframes fadeInOut3 {
+  0% {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.dropdown-3:hover .dropdown-menu-3 {
+  display: block;
+}
+
+/* Fade out animation for closing the menu */
+.dropdown-3 .dropdown-menu-3 {
+  transition: opacity 0.3s ease;
+}
+
+.dropdown-3:not(.show) .dropdown-menu-3 {
+  opacity: 0;
+  display: none;
+}
+
+
 }
 
   
